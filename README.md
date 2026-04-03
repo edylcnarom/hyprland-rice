@@ -1,2 +1,2 @@
-# hyprland-rice
-Ricing for Hyprland
+# My Hyprland-Rice
+
