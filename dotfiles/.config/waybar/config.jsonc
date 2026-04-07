@@ -29,8 +29,10 @@
     "modules-right": [
         "pulseaudio",
         "cpu",
+        "memory",
         "clock",
-        "custom/power"
+        "custom/power",
+        
     ],
 
 
