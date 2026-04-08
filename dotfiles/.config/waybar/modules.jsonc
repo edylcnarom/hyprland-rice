@@ -75,19 +75,23 @@
 
     "clock": {
         // "timezone": "America/New_York",
+        "format": "{:%I:%M %p}",
         "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
-        "format-alt": "{:%Y-%m-%d}"
+        "format-alt": "{:%Y-%m-%d}",
+        "interval": 60,
     },
 
 
     "cpu": {
         "format": "  {usage}% /",
-        "tooltip": false
+        "tooltip": false,
+        "interval": 10,
     },
 
 
     "memory": {
-        "format": " {}%"
+        "format": " {}%",
+        "interval": 10,
     },
 
 
