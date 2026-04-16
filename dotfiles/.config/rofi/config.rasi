@@ -1,125 +1,186 @@
+@import "colors.rasi"
+
 configuration {
-    drun {
-        display-name: " ";
-    }
-    timeout {
-        delay: 5;
-        action: "kb-cancel";
-    }
-    me-select-entry: "";
-    icon-theme: "Papirus";
-    show-icons: true;
-    fixed-num-lines: false;
-    font: "JetBrainsMono Nerd Font Bold 9";
-}
-
-* {
-    bg: #262828;
-    bg-alt-1: #2E2E2E;
-    bg-dark: #1D2021;
-    bg-alt-2: #99917f;
-    border-tp: rgba(215, 220, 228, 0.5);
-    text: #282828;
-    text-alt: #D7DCE4;
-    text-alt-2: rgba(215, 220, 228, 0.5);
-
-
-    border: 0;
-    margin: 0;
-    padding: 0;
-    spacing: 0;
+	modi: "window,run,drun";
+	display-drun: "Applications";
+	display-window: "Windows";
+	display-run: "Run";
+	drun-display-format: "{icon} {name}";
+	font: "JetBrainsMono Nerd Font 10";
+	show-icons: true;
+	icon-theme: "Colloid";
 }
 
 window {
-    width: 15%;
-    border: 1;
-    border-color: @border-tp;
-    border-radius: 5px;
-    background-color: @bg;
-    padding: 0.5em;
+    /* properties for window widget */
+    transparency:                "real";
+    location:                    center;
+    anchor:                      center;
+    fullscreen:                  false;
+    height:                      500px;   
+    width:                       1000px;
+    x-offset:                    0px;
+    y-offset:                    0px;
+
+    /* properties for all widgets */
+    enabled:                     true;
+    border:			 2px solid;
+    border-color:		 @secondary-container;
+    border-radius:               15px;
+    cursor:                      "default";
+    background-color:            @on-primary-fixed;
 }
 
 mainbox {
-    background-color: @bg;
-    border-radius: 5px;
-    children: [inputbar, listview];
+    enabled:                     true;
+    spacing:                     0px;
+    background-color:            transparent;
+    orientation:                 horizontal;
+    children:                    [ "imagebox", "listbox" ];
+}
+
+imagebox {
+    padding:                     20px;
+    background-color:            transparent;
+    background-image:            url("~/Projects/hyprland-rice/dotfiles/.config/hypr/current-wp/current_wp", height);
+    orientation:                 vertical;
+    children:                    [ "inputbar", "dummy", "mode-switcher" ];
+}
+
+listbox {
+    spacing:                     20px;
+    padding:                     20px;
+    background-color:            transparent;
+    orientation:                 vertical;
+    children:                    [ "message", "listview" ];
+}
+
+dummy {
+    background-color:            transparent;
 }
 
 inputbar {
-    background-color: @bg;
-    text-color: @text-alt;
-    children: [prompt, entry, num-filtered-rows, textbox-custom, num-rows];
+    enabled:                     true;
+    spacing:                     10px;
+    padding:                     15px;
+    border-radius:               10px;
+    background-color:		 @on-primary;
+    text-color:			 @on-surface;
+    children:                    [ "textbox-prompt-colon", "entry" ];
 }
-
-prompt {
-    background-color: inherit;
-    text-color: @text-alt;
-    padding: 0.5em 0.5em 0.5em 0;
+textbox-prompt-colon {
+    enabled:                     true;
+    expand:                      false;
+    str:                         "  ";
+    background-color:            inherit;
+    text-color:                  inherit;
 }
-
 entry {
-    background-color: inherit;
-    text-color: @text-alt;
-    placeholder: "Run";
-    placeholder-color: @text-alt-2;
-    padding: 0.5em 0 0.5em 0;
+    enabled:                     true;
+    background-color:            inherit;
+    text-color:                  inherit;
+    cursor:                      text;
+    placeholder:                 "Search";
+    placeholder-color:           inherit;
 }
 
-textbox-custom{
-    background-color: inherit;
-    text-color: @text-alt-2;
-	content: "/";
-	padding: 0.2em;
-    expand: false;
+mode-switcher{
+    enabled:                     true;
+    spacing:                     20px;
+    background-color:            transparent;
+    text-color:                  @primary-fixed;
 }
-
-num-filtered-rows, num-rows {
-    background-color: inherit;
-    text-color: @text-alt;
+button {
+    padding:                     15px;
+    border-radius:               10px;
+    background-color:            @on-primary;
+    text-color:                  inherit;
+    cursor:                      pointer;
 }
-
-prompt, entry, element-icon, element-text, num-filtered-rows, case-indicator, num-rows, textbox-custom {
-    vertical-align: 0.5;
+button selected {
+    background-color:            @primary;
+    text-color:                  @on-secondary;
 }
 
 listview {
-    background-color: inherit;
-    padding: 0.5em 0 0.5em 0;
-    lines: 5;
-    children: [element, scrollbar];
-    scrollbar: true;
-    fixed-height: false;
-    dynamic: false; /*True if the size should change when filtering the list, False if it should
-         keep the original height.*/
-    fixed-columns: true;
+    enabled:                     true;
+    columns:                     1;
+    lines:                       8;
+    cycle:                       true;
+    dynamic:                     true;
+    scrollbar:                   false;
+    layout:                      vertical;
+    reverse:                     false;
+    fixed-height:                true;
+    fixed-columns:               true;
+    
+    spacing:                     10px;
+    background-color:            transparent;
+    text-color:                  @on-surface;
+    cursor:                      "default";
 }
 
-scrollbar {
-    background-color: @bg-alt-1;
-    handle-color: @text-alt;
-    margin: 0 0 0 0.5em;
-    border-radius: 1em;
+element {
+    enabled:                     true;
+    spacing:                     15px;
+    padding:                     8px;
+    border-radius:               10px;
+    background-color:            transparent;
+    text-color:                  @on-surface;
+    cursor:                      pointer;
 }
-
+element normal.normal {
+    background-color:            inherit;
+    text-color:                  inherit;
+}
+element normal.urgent {
+    background-color:            @error;
+    text-color:                  @on-surface;
+}
+element normal.active {
+    background-color:            @primary;
+    text-color:                  @on-surface;
+}
+element selected.normal {
+    background-color:            @primary;
+    text-color:                  @on-secondary;
+}
+element selected.urgent {
+    background-color:            @error;
+    text-color:                  @on-secondary;
+}
+element selected.active {
+    background-color:            @error;
+    text-color:                  @on-secondary;
+}
 element-icon {
-    background-color: @bg;
-    padding: 0 0.5em 0 0;
+    background-color:            transparent;
+    text-color:                  inherit;
+    size:                        32px;
+    cursor:                      inherit;
 }
-
-element selected {
-    background-color: @bg;
-    text-color: @text;
-}
-
 element-text {
-    background-color: @bg;
-    text-color: @text-alt;
-    padding: 0.25em 0.2em 0.25em 0.2em;
+    background-color:            transparent;
+    text-color:                  inherit;
+    cursor:                      inherit;
+    vertical-align:              0.5;
+    horizontal-align:            0.0;
 }
 
-element-text selected {
-    background-color: @text-alt;
-    text-color: @text;
-    padding: 0.2em 0.2em 0.2em 0.2em;
-    border-radius: 5px;
+message {
+    background-color:            transparent;
+}
+textbox {
+    padding:                     15px;
+    border-radius:               10px;
+    background-color:            @on-primary;
+    text-color:                  @on-surface;
+    vertical-align:              0.5;
+    horizontal-align:            0.0;
+}
+error-message {
+    padding:                     15px;
+    border-radius:               20px;
+    background-color:            @on-primary;
+    text-color:                  @on-surface;
 }
