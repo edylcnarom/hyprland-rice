@@ -1,3 +1,4 @@
+@theme "/dev/null"
 @import "colors.rasi"
 
 configuration {
@@ -17,7 +18,6 @@ window {
     location:                    center;
     anchor:                      center;
     fullscreen:                  false;
-    height:                      500px;   
     width:                       1000px;
     x-offset:                    0px;
     y-offset:                    0px;
@@ -42,7 +42,7 @@ mainbox {
 imagebox {
     padding:                     20px;
     background-color:            transparent;
-    background-image:            url("~/Projects/hyprland-rice/dotfiles/.config/hypr/current-wp/current_wp", height);
+    background-image:            url("~/.config/hypr/current_wallpaper", height);
     orientation:                 vertical;
     children:                    [ "inputbar", "dummy", "mode-switcher" ];
 }
