@@ -24,7 +24,7 @@
 // Modules Left
   "modules-left": [
         "hyprland/window",
-        "custom/applauncher",
+        "custom/applauncher"
     ],
 
 
@@ -39,7 +39,8 @@
         "group/hardware",
         "pulseaudio",
         "clock",
-        "custom/power",
+        "custom/swaync",
+        "custom/power"
     ],
 
 ///// GROUPED MODULES /////

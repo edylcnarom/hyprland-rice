@@ -1,95 +1,91 @@
-/*
-          _                         _
-__      _| | ___   __ _  ___  _   _| |_
-\ \ /\ / / |/ _ \ / _` |/ _ \| | | | __|
- \ V  V /| | (_) | (_| | (_) | |_| | |_
-  \_/\_/ |_|\___/ \__, |\___/ \__,_|\__|
-                  |___/   */
-			
+@import "colors.css";
+
 * {
-	font-family: "JetBrainsMono Nerd Font";
-	background-image: none;
-	transition: 20ms;
-	box-shadow: none;
+    font-family: "JetBrains Mono Nerd Font";
+    background-image: none;
+    transition: 20ms;
+    box-shadow: none;
+
 }
 
 window {
-	background-color: rgba(12, 12, 12, 0.9);
-	font-size: 10pt;
+    background-color: rgba(17, 17, 17, 0.45);
+    font-size: 10pt;
 }
 
 button {
-	margin: 10px;
+    margin: 10px;
 
-    color: #FFFFFF;
-	
-	border-style: solid;
+    color: @inverse_surface;
+
+    border-radius: 20px;
+    border-style: solid;
 	border-width: 3px;
-	border-radius: 20;
-	border-color: #64727D;
+    border-color: @primary;
 
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: 25%;
-	background-color: rgba(12, 12, 12, 0.3);
+    background-color: rgba(0, 0, 0, 0.5);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 20%;
 
-	padding-top: 20px;
-	
-	min-width: 150px;
-    min-height: 150px;	
+    padding-top: 20px;
+    min-width: 150px;
+    min-height: 130px;
 
-	animation: gradient_f 20s ease-in infinite;
-	transition: all 0.3s cubic-bezier(.55, 0.0, .28, 1.682), box-shadow 0.2s ease-in-out, background-color 0
+    animation: gradient_f 20s ease-in infinite;
+    transition: all 0.3s cubic-bezier(.55, 0.0, .28, 1.682), box-shadow 0.2s ease-in-out, background-color 0;
+
+    outline-style: none;
+    text-shadow: none;
 }
 
-button:focus, button:hover {
-	background-color: rgba(100, 114, 125, 0.5);
-    background-size: 30%;
+button:hover,button:focus {
+    background-color: @on_secondary_fixed_variant;
+    background-size: 25%;
     animation: gradient_f 20s ease-in infinite;
     transition: all 0.3s cubic-bezier(.55,0.0,.28,1.682);
-	outline-style: none;
 }
+
+/* Adjust the size of the icon or content inside the button */
+button span {
+    font-size: 1.2em; /* Increase the font size */
+}
+
 
 #lock {
     background-image: image(url("/home/moran/Projects/hyprland-rice/dotfiles/.config/wlogout/icons/lock.png"));
 	margin: 10px;
 	border-radius: 20px;
-    border:1px solid #64727D;
 }
 
 #logout {
     background-image: image(url("/home/moran/Projects/hyprland-rice/dotfiles/.config/wlogout/icons/logout.png"));
 	margin: 10px;
 	border-radius: 20px;
-    border:1px solid #64727D;
 }
 
 #suspend {
     background-image: image(url("/home/moran/Projects/hyprland-rice/dotfiles/.config/wlogout/icons/suspend.png"));
 	margin: 10px;
 	border-radius: 20px;
-    border:1px solid #64727D;
 }
 
 #hibernate {
     background-image: image(url("/home/moran/Projects/hyprland-rice/dotfiles/.config/wlogout/icons/hibernate.png"));
 	margin: 10px;
 	border-radius: 20px;
-    border:1px solid #64727D;
 }
 
 #shutdown {
     background-image: image(url("/home/moran/Projects/hyprland-rice/dotfiles/.config/wlogout/icons/shutdown.png"));
 	margin: 10px;
 	border-radius: 20px;
-    border:1px solid #64727D;
 }
 
 #reboot {
     background-image: image(url("/home/moran/Projects/hyprland-rice/dotfiles/.config/wlogout/icons/reboot.png"));
 	margin: 10px;
 	border-radius: 20px;
-    border:1px solid #64727D;
 }
 
 /* home/moran/Projects/hyprland-rice/dotfiles/.config/wlogout/icons/hibernate.png */

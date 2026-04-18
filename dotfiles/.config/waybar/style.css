@@ -130,6 +130,7 @@ button:hover {
 }
 
 /* ///////// GENERAL MODULE SETTINGS ///////// */
+#custom-swaync,
 #clock,
 #battery,
 #disk,
@@ -153,12 +154,6 @@ button:hover {
 
 /* ///////// MODULES ///////// */
 
- #memory,#cpu{
-    padding: 3px;
-    margin: 0px;
-    color: #ffffff;
-}
-
 #window,
 #workspaces {
     margin: 0 4px;
@@ -174,9 +169,26 @@ button:hover {
     margin-right: 0;
 }
 
+#memory,#cpu{
+    padding: 3px;
+    margin: 0px;
+    color: #ffffff;
+}
+
 #clock {
     background-color: #64727D;
 }
+
+#pulseaudio.muted {
+    background-color: #90b1b1;
+    color: #ffffff;
+}
+
+#custom-swaync {
+    background-color: #64727D;
+    color: #FFFFFF;
+}
+
 
 #battery {
     background-color: #ffffff;
@@ -248,11 +260,6 @@ label:focus {
 #pulseaudio {
     background-color: #64727D;
     color: #FFFFFF;
-}
-
-#pulseaudio.muted {
-    background-color: #90b1b1;
-    color: #ffffff;
 }
 
 #wireplumber {
