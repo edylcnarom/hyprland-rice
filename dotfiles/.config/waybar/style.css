@@ -4,6 +4,8 @@
 /* ///////////////////////////////////////// */
 /* ///////////////////////////////////////// */
 
+@import "colors.css";
+
 * {
     /* `otf-font-awesome` is required to be installed for icons */
     font-family: JetBrainsMono Nerd Font, Roboto, Helvetica, Arial, sans-serif;
@@ -56,7 +58,19 @@ button:hover {
 
 /* you can set a style on hover for any module like this */
 #pulseaudio:hover {
-    background-color: #a37800;
+    background-color: @inverse_primary;
+}
+
+#clock:hover {
+    background-color: @inverse_primary;
+}
+
+#custom-swaync:hover {
+    background-color: @inverse_primary;
+}
+
+#custom-power:hover {
+    color: @inverse_primary;
 }
 
 #mode {
@@ -100,33 +114,33 @@ button:hover {
 /* ///////// WORKSPACES ///////// */
 
 #workspaces {
-    background-color:#FFFFFF;
+    background-color: @on_background;
     border-radius: 20px;
 }
 
 #workspaces button {
     padding: 0px 10px;
-    background-color:rgba(100, 114, 125, .5);
+    background-color:@secondary_container;
     border-radius: 15px;
     margin: 3px 3px;
     transition: all 0.2s ease-in-out;
 }
 
 #workspaces button.active {
-    background-color: #64727D;
+    background-color: @inverse_primary;
     transition: all 0.2s ease-in-out;
     min-width: 20px;
 }
 
 #workspaces button:hover {
-    background-color: #64727D;
+    background-color: @primary_container;
     border-radius: 15px;
     margin: 3px;
-    color: #64727D;
+    color: @primary_container;
 }
 
 #workspaces button.urgent {
-    background-color: #eb4d4b;
+    background-color: @error;
 }
 
 /* ///////// GENERAL MODULE SETTINGS ///////// */
@@ -147,9 +161,15 @@ button:hover {
 #power-profiles-daemon,
 #mpd {
     padding: 0 10px;
-    color: #ffffff;
+    color: @on_primary_container;
     border-radius: 15px;
-    border: 2px solid #ffffff;
+    border: 2px solid @on_background;
+}
+
+#memory,#cpu{
+    padding: 3px;
+    margin: 0px;
+    color: @on_primary_container;
 }
 
 /* ///////// MODULES ///////// */
@@ -169,24 +189,26 @@ button:hover {
     margin-right: 0;
 }
 
-#memory,#cpu{
-    padding: 3px;
-    margin: 0px;
-    color: #ffffff;
-}
 
 #clock {
-    background-color: #64727D;
+    background-color: @primary_container;
 }
 
-#pulseaudio.muted {
-    background-color: #90b1b1;
-    color: #ffffff;
+#pulseaudio {
+    background-color: @primary_container;
 }
 
 #custom-swaync {
-    background-color: #64727D;
-    color: #FFFFFF;
+    background-color: @primary_container;
+}
+
+#custom-power {
+    color: @on_primary_container;
+}
+
+
+#pulseaudio.muted {
+    background-color: #90b1b1;
 }
 
 
@@ -257,10 +279,6 @@ label:focus {
     background-color: #f53c3c;
 }
 
-#pulseaudio {
-    background-color: #64727D;
-    color: #FFFFFF;
-}
 
 #wireplumber {
     background-color: #fff0f5;
