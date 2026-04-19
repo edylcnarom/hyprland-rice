@@ -1,5 +1,5 @@
 @define-color text            @on_surface;
-@define-color background      alpha(@surface, .4);
+@define-color background-alt  alpha(@surface, .4);
 @define-color selected        @primary;
 @define-color hover           alpha(@secondary, .4);
 @define-color urgent          @error;
@@ -28,7 +28,7 @@
   box-shadow: 0 0 10px 0 rgba(0,0,0,.6);
   margin: 18px;
   padding: 12px;
-  width: 100px;
+  width:
 }
 
 /* Notifications  */
