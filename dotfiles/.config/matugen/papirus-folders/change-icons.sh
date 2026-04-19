@@ -1,60 +1,68 @@
 #!/bin/bash
 
-# Papirus-supported colors (name → reference hex for matching)
+# Configuration
+COLOR_FILE="$HOME/.config/matugen/papirus-folders/folder-color.txt"
+ICON_SCRIPT="$HOME/.local/share/icons/papirus-folders.sh"
+ICON_THEME="$HOME/.local/share/icons/Papirus-Dark"
+
+# Standard Papirus keys (Updated for compatibility)
 declare -A colors=(
-  [blue]="#5294E2"
-  [green]="#87B158"
-  [red]="#E25252"
-  [yellow]="#E5C07B"
-  [orange]="#E58A52"
-  [pink]="#E2529D"
-  [violet]="#A675D1"
-  [teal]="#52E5C4"
-  [cyan]="#52C7E5"
-  [grey]="#8A8A8A"
+  [blue]="#89B4FA"
+  [pink]="#F2CDCD"      # Flamingo
+  [green]="#A6E3A1"
+  [indigo]="#B4BEFE"    # Lavender -> Papirus Indigo
+  [maroon]="#EBA0AC"
+  [violet]="#CBA6F7"    # Mauve
+  [orange]="#FAB387"    # Peach
+  [magenta]="#F5C2E7"   # Pink
+  [red]="#F38BA8"
+  [grey]="#F5E0DC"      # Rosewater
+  [cyan]="#74C7EC"      # Sapphire
+  [sky]="#89DCEB"
+  [teal]="#94E2D5"
+  [yellow]="#F9E2AF"
 )
 
-# Read hex color from matugen output
-hex=$(<~/.config/matugen/papirus-folders/folder-color.txt)
+if [[ ! -f "$COLOR_FILE" ]]; then
+    exit 1
+fi
 
-# Convert HEX → RGB
+hex=$(cat "$COLOR_FILE")
+
 hex_to_rgb() {
-  local hex=$1
-  local r=$((16#${hex:1:2}))
-  local g=$((16#${hex:3:2}))
-  local b=$((16#${hex:5:2}))
-  echo "$r $g $b"
+  local h=${1#\#}
+  echo "$((16#${h:0:2})) $((16#${h:2:2})) $((16#${h:4:2}))"
 }
 
 read r1 g1 b1 <<< "$(hex_to_rgb "$hex")"
 
-# Find closest Papirus color
 min_distance=1000000
-closest_color="blue"
+closest_color=""
 
 for name in "${!colors[@]}"; do
   read r2 g2 b2 <<< "$(hex_to_rgb "${colors[$name]}")"
-
-  distance=$(( 
-    (r1 - r2)*(r1 - r2) +
-    (g1 - g2)*(g1 - g2) +
-    (b1 - b2)*(b1 - b2)
-  ))
-
+  distance=$(( (r1 - r2)**2 + (g1 - g2)**2 + (b1 - b2)**2 ))
+  
   if (( distance < min_distance )); then
     min_distance=$distance
     closest_color=$name
   fi
 done
 
-# Safety check (extra protection)
-valid_colors=(blue green red yellow orange pink violet teal cyan grey)
+# --- THE VALIDATION CHECK ---
+# Get a list of actual supported colors from your script
+SUPPORTED_COLORS=$("$ICON_SCRIPT" -l -t "$ICON_THEME")
 
-if [[ ! " ${valid_colors[@]} " =~ " ${closest_color} " ]]; then
-  closest_color="blue"
+if echo "$SUPPORTED_COLORS" | grep -qw "$closest_color"; then
+    FINAL_COLOR="$closest_color"
+else
+    # Fallback: if 'indigo' is missing, try 'bluegrey' or 'blue'
+    if echo "$SUPPORTED_COLORS" | grep -qw "bluegrey"; then
+        FINAL_COLOR="bluegrey"
+    else
+        FINAL_COLOR="blue"
+    fi
 fi
 
-echo "Closest Papirus color to $hex is: $closest_color"
-
-# Apply folder color
-~/.local/share/icons/papirus-folders.sh -C "$closest_color" -t Papirus-Dark
+echo "Applying: $FINAL_COLOR (Matched from $hex)"
+"$ICON_SCRIPT" -C "$FINAL_COLOR" -t "$ICON_THEME"
