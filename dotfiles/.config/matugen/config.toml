@@ -41,6 +41,10 @@ input_path = '~/.config/matugen/templates/matugen-cava'
 output_path = '~/.config/cava/config'
 post_hook = "pkill -USR1 cava"
 
+[templates.folder]
+input_path = '~/.config/matugen/templates/folder-color.txt'
+output_path = '~/.config/matugen/papirus-folders/folder-color.txt'
+
 #[templates.spicetify]
 #input_path = '~/.config/matugen/templates/spotify-colors.ini'
 #output_path = '~/.config/spicetify/Themes/text/color.ini'

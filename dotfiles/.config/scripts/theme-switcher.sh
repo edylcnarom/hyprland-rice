@@ -1,5 +1,6 @@
 #!/bin/bash
 
+
 # Wallpaper directory
 WALLPAPER_DIR="$HOME/Projects/hyprland-rice/dotfiles/Hyprland-Wallpapers"
 SYMLINK_PATH="$HOME/Projects/hyprland-rice/dotfiles/.config/hypr/current_wallpaper"
@@ -33,3 +34,5 @@ ln -sf "$NEW_WALLPAPER" "$SYMLINK_PATH"
 
 # Generate Matugen Colors
 matugen image "$NEW_WALLPAPER" --prefer saturation
+
+bash ~/.config/matugen/papirus-folders/change-icons.sh

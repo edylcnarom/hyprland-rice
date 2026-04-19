@@ -59,11 +59,11 @@
           "actions": [
               {
                   "label": "󰐥",
-                  "command": "bash -c $HOME/.config/hypr/scripts/Wlogout.sh"
+                  "command": "bash -c $HOME/.config/scripts/Wlogout.sh"
               },
               {
                   "label": "󰌾",
-                  "command": "bash -c $HOME/.config/hypr/scripts/hyprlock.sh"
+                  "command": "bash -c $HOMEhyprland-rice.config/scripts/hyprlock.sh"
               },
               {
                   "label": "󰍃",
@@ -71,7 +71,7 @@
               },
               {
                   "label": "󰀝",
-                  "command": "bash -c $HOME/.config/hypr/scripts/AirplaneMode.sh"
+                  "command": "bash -c $HOME/.config/scripts/AirplaneMode.sh"
               },
               {
                   "label": "󰝟",

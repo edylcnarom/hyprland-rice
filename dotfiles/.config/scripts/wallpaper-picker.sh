@@ -27,3 +27,5 @@ matugen image "$SELECTED_PATH" --prefer saturation
 # === CREATE SYMLINK ===
 mkdir -p "$(dirname "$SYMLINK_PATH")"
 ln -sf "$SELECTED_PATH" "$SYMLINK_PATH"
+
+bash ~/.config/matugen/papirus-folders/change-icons.sh

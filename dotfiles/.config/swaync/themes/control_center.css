@@ -5,7 +5,7 @@
 @define-color urgent          @error;
 
 * {
-  color:            @text;
+  color: @text;
 
   all: unset;
   font-size: 14px;
