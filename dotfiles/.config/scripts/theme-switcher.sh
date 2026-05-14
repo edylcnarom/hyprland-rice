@@ -26,7 +26,7 @@ Y_POS="0.$(printf "%02d" $((RANDOM % 100)))"
 
 # Change Wallpaper
 
-awww img "$NEW_WALLPAPER" --transition-type grow --transition-fps 60 --transition-duration 1.5 --transition-pos "$X_POS,$Y_POS"
+awww img "$NEW_WALLPAPER" --transition-type grow --transition-fps 60 --transition-duration 2 --transition-pos "$X_POS,$Y_POS"
 
 
 # Create Sym-Link

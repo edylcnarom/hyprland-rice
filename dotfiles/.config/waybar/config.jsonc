@@ -23,8 +23,8 @@
 
 // Modules Left
   "modules-left": [
-        "hyprland/window",
-        "custom/applauncher"
+        "custom/applauncher",
+        "hyprland/window"
     ],
 
 
@@ -51,6 +51,6 @@
         "modules": [
             "cpu",
             "memory"
-        ],
-    },
-}  
+        ]
+    }
+} 
