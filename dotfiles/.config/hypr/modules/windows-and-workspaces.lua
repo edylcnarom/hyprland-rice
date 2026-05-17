@@ -43,3 +43,31 @@ hl.window_rule({
     move  = "20 monitor_h-120",
     float = true,
 })
+
+hl.layer_rule({
+    name      = "rofi-popup",
+    match     = { namespace = "rofi" },
+    blur = false,
+    ignore_alpha = 0.5,
+    dim_around = false,
+    animation = "fade",
+})
+
+hl.layer_rule({
+    name      = "notification-animations",
+    match     = { namespace = "swaync-control-center" },
+    animation = "fade",
+})
+
+hl.layer_rule({
+    name      = "wlogout",
+    match     = { namespace = "logout_dialog" },
+    blur = true,
+    dim_around = true,
+    animation = "fade",
+})
+
+hl.window_rule({
+    match = { class = "com-azefsw-audioconnect-desktop-app-MainKt" },
+    workspace = "special:magic silent"
+})

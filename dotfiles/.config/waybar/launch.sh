@@ -13,3 +13,5 @@ then
 else
     waybar &
 fi
+
+swaync-client --reload-config

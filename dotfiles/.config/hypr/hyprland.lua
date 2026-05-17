@@ -14,13 +14,8 @@
 ---- MONITORS ----
 ------------------
 
--- See https://wiki.hypr.land/Configuring/Basics/Monitors/
-hl.monitor({
-    output   = "HDMI-A-1",
-    mode     = "1360x768@60",
-    position = "0x0",
-    scale    = "1",
-})
+require("modules.monitors")
+
 
 
 ---------------------
@@ -49,6 +44,7 @@ local scriptsDir  = "~/Projects/hyprland-rice/dotfiles/.config/scripts/"
    hl.exec_cmd("swaync")
    hl.exec_cmd("hypridle")
    hl.exec_cmd("~/.config/waybar/launch.sh")
+   hl.exec_cmd("net.audiorelay.AudioRelay")
  end)
 
 
@@ -86,8 +82,9 @@ local mainMod = "SUPER" -- Sets "Windows" key as main modifier
 
 ----- MISC -----
 
-hl.bind(" + PRINT", hl.dsp.exec_cmd("hyprshot -m window"))
+hl.bind(" + PRINT", hl.dsp.exec_cmd("hyprshot -m output"))
 hl.bind("SHIFT + PRINT", hl.dsp.exec_cmd("hyprshot -m region"))
+hl.bind("ALT + PRINT", hl.dsp.exec_cmd("hyprshot -m window"))
 hl.bind(mainMod .. " + SHIFT + L", hl.dsp.exec_cmd("hyprlock"))
 hl.bind(mainMod .. " + SHIFT + B", hl.dsp.exec_cmd("~/.config/waybar/launch.sh"))
 hl.bind(mainMod .. " + 0", hl.dsp.exec_cmd("command -v hyprshutdown >/dev/null 2>&1 && hyprshutdown || hyprctl dispatch 'hl.dsp.exit()'"))
@@ -108,10 +105,6 @@ hl.bind("ALT + space",          hl.dsp.exec_cmd(menu))
 
 ----- WINDOWS -----
 hl.bind(mainMod .. " + F", hl.dsp.window.fullscreen(0))
-hl.bind(mainMod .. " + M", hl.dsp.window.fullscreen(1))
-hl.bind(mainMod .. " + SHIFT + T", hl.dsp.exec_cmd(scriptsDir .. "toggle-allfloat.sh"))
-hl.bind(mainMod .. " + ALT + T",   hl.dsp.exec_cmd(scriptsDir .. "toggle-floatpin.sh"))
-
 hl.bind(mainMod .. " + T", hl.dsp.window.float({ action = "toggle" }))
 hl.bind(mainMod .. " + P", hl.dsp.window.pseudo())
 hl.bind(mainMod .. " + J", hl.dsp.layout("togglesplit"))    -- dwindle only
@@ -124,10 +117,10 @@ hl.bind(mainMod .. " + up",    hl.dsp.focus({ direction = "up" }))
 hl.bind(mainMod .. " + down",  hl.dsp.focus({ direction = "down" }))
 
 -- Resize Windows with mainmod SHIFT + arrow keys
-hl.bind(mainMod .. " + SHIFT + right", hl.dsp.window.resize({ x = 100, y = 0 }))
-hl.bind(mainMod .. " + SHIFT + left",  hl.dsp.window.resize({ x = -100, y = 0 }))
-hl.bind(mainMod .. " + SHIFT + down",  hl.dsp.window.resize({ x = 0, y = 100 }))
-hl.bind(mainMod .. " + SHIFT + up",    hl.dsp.window.resize({ x = 0, y = -100 }))
+hl.bind(mainMod .. " + SHIFT + right", function() hl.dispatch(hl.dsp.window.resize({ x = 30, y = 0, relative = true })) end, { repeating = true })
+hl.bind(mainMod .. " + SHIFT + left",  function() hl.dispatch(hl.dsp.window.resize({ x = -30, y = 0, relative = true })) end, { repeating = true })
+hl.bind(mainMod .. " + SHIFT + down",  function() hl.dispatch(hl.dsp.window.resize({ x = 0, y = 30, relative = true })) end, { repeating = true })
+hl.bind(mainMod .. " + SHIFT + up",    function() hl.dispatch(hl.dsp.window.resize({ x = 0, y = -30, relative = true })) end, { repeating = true })
 
 -- Swap Windows with mainMod ALT + arrow keys
 hl.bind(mainMod .. " + ALT + left",  hl.dsp.window.move({ direction = "left" })) -- Swap is handled via move in some Lua APIs
@@ -166,12 +159,15 @@ hl.bind(mainMod .. " + mouse_down", hl.dsp.focus({ workspace = "e+1" }))
 hl.bind(mainMod .. " + mouse_up",   hl.dsp.focus({ workspace = "e-1" }))
 
 -- Laptop multimedia keys for volume and LCD brightness
-hl.bind("XF86AudioRaiseVolume", hl.dsp.exec_cmd("wpctl set-volume -l 1 @DEFAULT_AUDIO_SINK@ 5%+"), { locked = true, repeating = true })
-hl.bind("XF86AudioLowerVolume", hl.dsp.exec_cmd("wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%-"),      { locked = true, repeating = true })
-hl.bind("XF86AudioMute",        hl.dsp.exec_cmd("wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle"),     { locked = true, repeating = true })
+hl.bind("XF86AudioRaiseVolume", hl.dsp.exec_cmd("wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%+"), { repeating = true })
+hl.bind("XF86AudioLowerVolume", hl.dsp.exec_cmd("wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%-"), { repeating = true })
+hl.bind("XF86AudioMute",        hl.dsp.exec_cmd("wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle"), { locked = true })
 hl.bind("XF86AudioMicMute",     hl.dsp.exec_cmd("wpctl set-mute @DEFAULT_AUDIO_SOURCE@ toggle"),   { locked = true, repeating = true })
 hl.bind("XF86MonBrightnessUp",  hl.dsp.exec_cmd("brightnessctl -e4 -n2 set 5%+"),                  { locked = true, repeating = true })
 hl.bind("XF86MonBrightnessDown",hl.dsp.exec_cmd("brightnessctl -e4 -n2 set 5%-"),                  { locked = true, repeating = true })
+hl.bind("XF86AudioStop",        hl.dsp.exec_cmd("brightnessctl -e4 -n2 set 5%-"),                  { locked = true, repeating = true })
+hl.bind("XF86AudioPrev",        hl.dsp.exec_cmd("brightnessctl -e4 -n2 set 5%+"),                  { locked = true, repeating = true })
+
 
 -- Requires playerctl
 hl.bind("XF86AudioNext",  hl.dsp.exec_cmd("playerctl next"),       { locked = true })

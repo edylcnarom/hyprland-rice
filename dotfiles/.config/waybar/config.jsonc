@@ -37,9 +37,9 @@
 // Modules Right
     "modules-right": [
         "group/hardware",
+        "custom/swaync",
         "pulseaudio",
         "clock",
-        "custom/swaync",
         "custom/power"
     ],
 
