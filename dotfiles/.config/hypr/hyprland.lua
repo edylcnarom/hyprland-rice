@@ -24,7 +24,7 @@ require("modules.monitors")
 
 -- Set programs that you use
 local terminal    = "kitty"
-local fileManager = "thunar"
+local fileManager = "dolphin"
 local menu        = "rofi -show drun"
 local browser     = "firefox"
 local scriptsDir  = "~/Projects/hyprland-rice/dotfiles/.config/scripts/"
@@ -45,6 +45,9 @@ local scriptsDir  = "~/Projects/hyprland-rice/dotfiles/.config/scripts/"
    hl.exec_cmd("hypridle")
    hl.exec_cmd("~/.config/waybar/launch.sh")
    hl.exec_cmd("net.audiorelay.AudioRelay")
+   hl.exec_cmd("wl-paste --type text --watch cliphist store")
+   hl.exec_cmd("wl-paste --type image --watch cliphist store")
+   
  end)
 
 
@@ -90,6 +93,8 @@ hl.bind(mainMod .. " + SHIFT + B", hl.dsp.exec_cmd("~/.config/waybar/launch.sh")
 hl.bind(mainMod .. " + 0", hl.dsp.exec_cmd("command -v hyprshutdown >/dev/null 2>&1 && hyprshutdown || hyprctl dispatch 'hl.dsp.exit()'"))
 hl.bind(mainMod .. " + ALT + W", hl.dsp.exec_cmd(scriptsDir .. "theme-switcher.sh"))
 hl.bind(mainMod .. " + SHIFT + W", hl.dsp.exec_cmd(scriptsDir .. "wallpaper-picker.sh"))
+hl.bind(mainMod .. " + period", hl.dsp.exec_cmd("rofi -modi emoji -show emoji"))
+hl.bind(mainMod .. " + SHIFT + V", hl.dsp.exec_cmd("cliphist list | rofi -dmenu -display-columns 2 | cliphist decode | wl-copy"))
 
 ----- DISPLAY -----
 hl.bind(mainMod .. " + SHIFT + mouse_down", hl.dsp.exec_cmd('hyprctl keyword cursor:zoom_factor $(awk "BEGIN {print $(hyprctl getoption cursor:zoom_factor | grep \'float:\' | awk \'{print $2}\') + 0.5}")'))

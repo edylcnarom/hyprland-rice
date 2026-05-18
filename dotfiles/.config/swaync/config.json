@@ -42,6 +42,7 @@
   },
   "widgets": [
     "mpris",
+    "rmpc",
     "buttons-grid",
     "volume",
     "backlight",
@@ -80,6 +81,15 @@
       "prefer": ["spotify"]
       
     },
+
+      "rmpc": {
+      "image-size": 96,
+      "image-radius": 19,
+      "show-album-art": "playing",
+      "autohide": true
+      
+    },
+
     "volume": {
       "label": "󰕾 ",
         "show-per-app": false

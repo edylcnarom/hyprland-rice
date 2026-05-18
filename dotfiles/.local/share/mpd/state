@@ -1,0 +1,724 @@
+sw_volume: 100
+audio_device_state:1:pipewire output
+state: pause
+current: 0
+time: 239.439
+random: 0
+repeat: 0
+single: 0
+consume: 0
+crossfade: 0
+mixrampdb: 0
+mixrampdelay: -1
+lastloadedplaylist: 
+playlist_begin
+0:Music/Anri FLAC/Anri - WINDY SUMMER.flac
+1:Music/Anri FLAC/Anri - Kanashimi ga Tomaranai I CAN T STOP THE LONELINESS.flac
+2:Music/Anri FLAC/Anri - SHYNESS BOY.flac
+3:Music/Anri FLAC/Anri - Remember Summer Days.flac
+4:Music/3 Doors Down FLAC/3 Doors Down - Here Without You.flac
+5:Music/A Day To Remember FLAC/A Day to Remember - If It Means A Lot To You.flac
+6:Music/A-ha FLAC/a-ha - Take on Me.flac
+7:Music/ABBA FLAC/ABBA - Dancing Queen.flac
+8:Music/ABBA FLAC/ABBA - Mamma Mia.flac
+9:Music/ABBA FLAC/ABBA - Money, Money, Money.flac
+10:Music/ABBA FLAC/ABBA_Gimme!_Gimme!_Gimme!_A_Man_After_Midnight.flac
+11:Music/ABBA FLAC/ABBA - Lay All Your Love On Me.flac
+12:Music/ABBA FLAC/ABBA - Chiquitita.flac
+13:Music/ABBA FLAC/ABBA - Happy New Year.flac
+14:Music/ABBA FLAC/ABBA - Slipping Through My Fingers.flac
+15:Music/Air Supply FLAC/Air Supply - Young Love.flac
+16:Music/Air Supply FLAC/Air Supply - The One That You Love.flac
+17:Music/Air Supply FLAC/Air Supply - Here I Am (Just When I Thought I Was Over You).flac
+18:Music/Air Supply FLAC/Air Supply - Lost In Love.flac
+19:Music/Air Supply FLAC/Air Supply - Sweet Dreams.flac
+20:Music/Air Supply FLAC/Air Supply - Just as I Am.flac
+21:Music/Air Supply FLAC/Air Supply - Lonely Is the Night.flac
+22:Music/Air Supply FLAC/Air Supply - Making Love Out of Nothing at All.flac
+23:Music/Air Supply FLAC/Air Supply - Come What May.flac
+24:Music/Air Supply FLAC/Air Supply - Without You.flac
+25:Music/Air Supply FLAC/Air Supply - I Can Wait Forever.flac
+26:Music/Air Supply FLAC/Air Supply - Every Woman in the World.flac
+27:Music/Air Supply FLAC/Air Supply - The Power of Love (You Are My Lady).flac
+28:Music/Air Supply FLAC/Air Supply - Goodbye.flac
+29:Music/Air Supply FLAC/Air Supply - All Out of Love.flac
+30:Music/Air Supply FLAC/Air Supply - Even the Nights Are Better.flac
+31:Music/Air Supply FLAC/Air Supply - Now and Forever.flac
+32:Music/Alice In Chains FLAC/Alice in Chains - Would  (2022 Remaster).flac
+33:Music/Alice In Chains FLAC/Alice in Chains - Man in the Box.flac
+34:Music/All Time Low FLAC/All Time Low - Backseat Serenade.flac
+35:Music/All Time Low FLAC/All Time Low - Something's Gotta Give.flac
+36:Music/All Time Low FLAC/All Time Low - Missing You.flac
+37:Music/All Time Low FLAC/All Time Low - Therapy.flac
+38:Music/All Time Low FLAC/All Time Low - Lullabies.flac
+39:Music/All Time Low FLAC/All Time Low - Dear Maria, Count Me In.flac
+40:Music/All Time Low FLAC/All Time Low - Remembering Sunday (feat. Juliet Simms).flac
+41:Music/Anri FLAC/Anri - WINDY SUMMER.flac
+42:Music/Anri FLAC/Anri - Kanashimi ga Tomaranai I CAN T STOP THE LONELINESS.flac
+43:Music/Anri FLAC/Anri - SHYNESS BOY.flac
+44:Music/Anri FLAC/Anri - Remember Summer Days.flac
+45:Music/APO Hiking Society FLAC/APO Hiking Society - When I Met You.flac
+46:Music/Asking Alexandria FLAC/Asking Alexandria - I Won't Give In.flac
+47:Music/Audioslave FLAC/Audioslave - Like a Stone.flac
+48:Music/Audioslave FLAC/Audioslave - I Am the Highway.flac
+49:Music/Audioslave FLAC/Audioslave - Be Yourself.flac
+50:Music/Avril Lavigne FLAC/Avril Lavigne - Here s to Never Growing Up.flac
+51:Music/Avril Lavigne FLAC/Avril Lavigne - Wish You Were Here.flac
+52:Music/Avril Lavigne FLAC/Avril Lavigne - Complicated.flac
+53:Music/Avril Lavigne FLAC/Avril Lavigne - I m with You.flac
+54:Music/BABYMETAL FLAC/BABYMETAL - Gimme Chocolate!!.flac
+55:Music/Basement FLAC/Basement - Covet.flac
+56:Music/Bee Gees FLAC/Bee Gees - I Started A Joke.flac
+57:Music/Bee Gees FLAC/Bee Gees - More Than A Woman.flac
+58:Music/Bee Gees FLAC/Bee Gees - Alone.flac
+59:Music/Bee Gees FLAC/Bee Gees - Stayin Alive.flac
+60:Music/Bee Gees FLAC/Bee Gees - Jive Talkin.flac
+61:Music/Bee Gees FLAC/Bee_Gees_Night_Fever_From_Saturday_Night_Fever_Soundtrack.flac
+62:Music/Bee Gees FLAC/Bee Gees - Too Much Heaven.flac
+63:Music/Bee Gees FLAC/Bee Gees - Massachusetts.flac
+64:Music/Bee Gees FLAC/Bee Gees - New York Mining Disaster 1941.flac
+65:Music/Bee Gees FLAC/Bee Gees - To Love Somebody.flac
+66:Music/Bee Gees FLAC/Bee Gees - Words.flac
+67:Music/Bee Gees FLAC/Bee Gees - You Should Be Dancing.flac
+68:Music/Bee Gees FLAC/Bee Gees - How Deep Is Your Love.flac
+69:Music/Bee Gees FLAC/Bee Gees - Tragedy.flac
+70:Music/Bee Gees FLAC/Bee Gees - How Can You Mend A Broken Heart.flac
+71:Music/Ben&Ben FLAC/Ben&Ben - Kathang Isip.flac
+72:Music/Ben&Ben FLAC/Ben&Ben - Araw-Araw.flac
+73:Music/Ben&Ben FLAC/Ben&Ben - Masyado Pang Maaga.flac
+74:Music/Ben&Ben FLAC/Ben&Ben - Lunod (feat. Zild & Juan Karlos).flac
+75:Music/Ben&Ben FLAC/Ben&Ben - Sa Susunod na Habang Buhay.flac
+76:Music/Black Sabbath FLAC/Black Sabbath - God Is Dead_.flac
+77:Music/Black Sabbath FLAC/Black Sabbath - Black Sabbath.flac
+78:Music/Black Sabbath FLAC/Paranoid (2009 Remastered Version) CD 1 TRACK 1 (FLAC).flac
+79:Music/Black Sabbath FLAC/Black Sabbath - Paranoid.flac
+80:Music/Black Sabbath FLAC/Black Sabbath - Iron Man.flac
+81:Music/blink-182 FLAC/blink-182 - I Miss You.flac
+82:Music/blink-182 FLAC/blink-182 - Bored To Death.flac
+83:Music/blink-182 FLAC/blink-182 - All The Small Things.flac
+84:Music/blink-182 FLAC/blink-182 - Stay Together For The Kids.flac
+85:Music/boy pablo FLAC/boy pablo - Flowers.flac
+86:Music/boy pablo FLAC/boy pablo - Everytime.flac
+87:Music/boy pablo FLAC/boy pablo - Sick Feeling.flac
+88:Music/boy pablo FLAC/boy pablo - Losing You.flac
+89:Music/boy pablo FLAC/boy pablo - tkm.flac
+90:Music/Breaking Benjamin FLAC/Breaking Benjamin - I Will Not Bow.flac
+91:Music/Breaking Benjamin FLAC/Breaking Benjamin - The Diary Of Jane.flac
+92:Music/Bring Me The Horizon FLAC/Bring Me the Horizon - Parasite Eve.flac
+93:Music/Bring Me The Horizon FLAC/Bring Me The Horizon - Kingslayer (feat. BABYMETAL).flac
+94:Music/Bring Me The Horizon FLAC/Bring Me The Horizon - Can You Feel My Heart.flac
+95:Music/Bring Me The Horizon FLAC/Bring Me the Horizon - The House of Wolves.flac
+96:Music/Bring Me The Horizon FLAC/Bring Me The Horizon - Empire (Let Them Sing).flac
+97:Music/Bring Me The Horizon FLAC/Bring Me The Horizon - Sleepwalking.flac
+98:Music/Bring Me The Horizon FLAC/Bring Me The Horizon - Go to Hell, for Heaven's Sake.flac
+99:Music/Bring Me The Horizon FLAC/Bring Me The Horizon - Shadow Moses.flac
+100:Music/Bring Me The Horizon FLAC/Bring Me the Horizon - And the Snakes Start to Sing.flac
+101:Music/Bring Me The Horizon FLAC/Bring Me The Horizon - Hospital for Souls.flac
+102:Music/Bring Me The Horizon FLAC/Bring Me The Horizon - Happy Song.flac
+103:Music/Bring Me The Horizon FLAC/Bring Me The Horizon - Throne.flac
+104:Music/Bring Me The Horizon FLAC/Bring Me The Horizon - True Friends.flac
+105:Music/Bring Me The Horizon FLAC/Bring Me The Horizon - Follow You.flac
+106:Music/Bring Me The Horizon FLAC/Bring Me The Horizon - Drown.flac
+107:Music/Bring Me The Horizon FLAC/Bring Me The Horizon - Blasphemy.flac
+108:Music/Bullet For My Valentine FLAC/Bullet For My Valentine - Your Betrayal.flac
+109:Music/Bullet For My Valentine FLAC/Bullet For My Valentine - Bittersweet Memories.flac
+110:Music/Bullet For My Valentine FLAC/Bullet For My Valentine - Don t Need You.flac
+111:Music/Bullet For My Valentine FLAC/Bullet For My Valentine - Scream Aim Fire.flac
+112:Music/Bullet For My Valentine FLAC/Bullet For My Valentine - Waking the Demon.flac
+113:Music/Bullet For My Valentine FLAC/Bullet For My Valentine - Tears Don't Fall.flac
+114:Music/Bullet For My Valentine FLAC/Bullet For My Valentine - Hand Of Blood.flac
+115:Music/Bullet For My Valentine FLAC/Bullet for My Valentine - No Way Out.flac
+116:Music/Bullet For My Valentine FLAC/Bullet For My Valentine - Worthless.flac
+117:Music/Bullet For My Valentine FLAC/Bullet For My Valentine - You Want a Battle_ (Here's a War).flac
+118:Music/Bullet For My Valentine FLAC/Bullet For My Valentine - Venom.flac
+119:Music/Bush FLAC/Bush - Swallowed (Remastered).flac
+120:Music/Bush FLAC/Bush - Everything Zen (Remastered).flac
+121:Music/Bush FLAC/Bush - Little Things (Remastered).flac
+122:Music/Bush FLAC/Bush - Comedown (Remastered).flac
+123:Music/Bush FLAC/Bush - Machinehead (Remastered).flac
+124:Music/Bush FLAC/Bush - Glycerine (Remastered).flac
+125:Music/Candlebox FLAC/Candlebox - Far Behind.flac
+126:Music/Carpenters FLAC/Carpenters - (They Long To Be) Close To You.flac
+127:Music/Carpenters FLAC/Carpenters - Top Of The World.flac
+128:Music/Carpenters FLAC/Carpenters - Only Yesterday.flac
+129:Music/Carpenters FLAC/Carpenters - Love Me For What I Am.flac
+130:Music/Carpenters FLAC/Carpenters - Yesterday Once More.flac
+131:Music/Casey Edwards FLAC/Casey Edwards - Bury the Light.flac
+132:Music/Collective Soul FLAC/Collective Soul - She Said.flac
+133:Music/Collective Soul FLAC/Collective Soul - Precious Declaration.flac
+134:Music/Collective Soul FLAC/Collective Soul - Listen.flac
+135:Music/Collective Soul FLAC/Collective Soul - Simple.flac
+136:Music/Collective Soul FLAC/Collective Soul - Untitled.flac
+137:Music/Collective Soul FLAC/Collective Soul - Smashing Young Man.flac
+138:Music/Collective Soul FLAC/Collective Soul - December.flac
+139:Music/Collective Soul FLAC/Collective Soul - Where The River Flows.flac
+140:Music/Collective Soul FLAC/Collective Soul - Gel.flac
+141:Music/Collective Soul FLAC/Collective Soul - She Gathers Rain.flac
+142:Music/Collective Soul FLAC/Collective Soul - When The Water Falls.flac
+143:Music/Collective Soul FLAC/Collective Soul - Collection Of Goods.flac
+144:Music/Collective Soul FLAC/Collective Soul - Bleed.flac
+145:Music/Collective Soul FLAC/Collective Soul - Reunion.flac
+146:Music/Collective Soul FLAC/Collective Soul - The World I Know (LP Version).flac
+147:Music/Collective Soul FLAC/Collective Soul - Forgiveness.flac
+148:Music/Collective Soul FLAC/Collective Soul - Heavy.flac
+149:Music/Collective Soul FLAC/Collective Soul - Needs.flac
+150:Music/Collective Soul FLAC/Collective Soul - Dandy Life.flac
+151:Music/Collective Soul FLAC/Collective Soul - Run.flac
+152:Music/Collective Soul FLAC/Collective Soul - Compliment.flac
+153:Music/Collective Soul FLAC/Collective Soul - Shine.flac
+154:Music/Collective Soul FLAC/Collective Soul - Why Pt. 2.flac
+155:Music/Creed FLAC/Creed - With Arms Wide Open.flac
+156:Music/Creed FLAC/Creed - Higher.flac
+157:Music/Creed FLAC/Creed - One Last Breath.flac
+158:Music/Creed FLAC/Creed - My Sacrifice.flac
+159:Music/Crown The Empire FLAC/Crown The Empire - The Fallout.flac
+160:Music/Crown The Empire FLAC/Crown The Empire - Memories Of A Broken Heart.flac
+161:Music/Crown The Empire FLAC/Crown The Empire - Millennia.flac
+162:Music/Crown The Empire FLAC/Crown The Empire - Machines.flac
+163:Music/Cueshé FLAC/Cueshé - Borrowed Time.flac
+164:Music/Cueshé FLAC/Cueshé - Back To Me.flac
+165:Music/Cueshé FLAC/Cueshé - All I Want.flac
+166:Music/Cueshé FLAC/Cueshé - Bakit.flac
+167:Music/Cueshé FLAC/Cueshé - Pasensya Na.flac
+168:Music/Cueshé FLAC/Cueshé - BMD.flac
+169:Music/Cueshé FLAC/Cueshé - Stay.flac
+170:Music/Cueshé FLAC/Cueshé - Sorry.flac
+171:Music/Cueshé FLAC/Cueshé - Ulan.flac
+172:Music/Cueshé FLAC/Cueshé - Can t Let You Go.flac
+173:Music/Dashboard Confessional FLAC/Dashboard Confessional - Stolen.flac
+174:Music/Dashboard Confessional FLAC/Dashboard Confessional - Vindicated.flac
+175:Music/December Avenue FLAC/December Avenue - Eroplanong Papel.flac
+176:Music/Deftones FLAC/Deftones - Bored.flac
+177:Music/Deftones FLAC/Deftones - Root.flac
+178:Music/Deftones FLAC/Deftones - 7 Words.flac
+179:Music/Deftones FLAC/Deftones - Engine No. 9.flac
+180:Music/Deftones FLAC/Deftones - My Own Summer (Shove It).flac
+181:Music/Deftones FLAC/Deftones - Mascara.flac
+182:Music/Deftones FLAC/Deftones - Around the Fur.flac
+183:Music/Deftones FLAC/Deftones - Be Quiet and Drive (Far Away).flac
+184:Music/Deftones FLAC/Deftones - Dai the Flu.flac
+185:Music/Deftones FLAC/Deftones_Please_Please_Please_Let_Me_Get_What_I_Want_2005_Remaster.flac
+186:Music/Deftones FLAC/Deftones - Needles and Pins.flac
+187:Music/Deftones FLAC/Deftones - Minerva.flac
+188:Music/Deftones FLAC/Deftones - Battle-axe.flac
+189:Music/Deftones FLAC/Deftones - Bloody Cape.flac
+190:Music/Deftones FLAC/Deftones - Beauty School.flac
+191:Music/Deftones FLAC/Deftones - Sextape.flac
+192:Music/Deftones FLAC/Deftones - Risk.flac
+193:Music/Deftones FLAC/Deftones - Diamond Eyes.flac
+194:Music/Deftones FLAC/Deftones - You ve Seen the Butcher.flac
+195:Music/Deftones FLAC/Deftones - Rocket Skates.flac
+196:Music/Deftones FLAC/Deftones - 976-EVIL.flac
+197:Music/Deftones FLAC/Deftones - Swerve City.flac
+198:Music/Deftones FLAC/Deftones - Romantic Dreams.flac
+199:Music/Deftones FLAC/Deftones - Leathers.flac
+200:Music/Deftones FLAC/Deftones - Poltergeist.flac
+201:Music/Deftones FLAC/Deftones - Entombed.flac
+202:Music/Deftones FLAC/Deftones - Tempest.flac
+203:Music/Deftones FLAC/Deftones - Rosemary.flac
+204:Music/Deftones FLAC/Deftones - Goon Squad.flac
+205:Music/Deftones FLAC/Deftones - Hole in the Earth.flac
+206:Music/Deftones FLAC/Deftones - Beware.flac
+207:Music/Deftones FLAC/Deftones - Cherry Waves.flac
+208:Music/Deftones FLAC/Deftones - Xerces.flac
+209:Music/Deftones FLAC/Deftones - Drive.flac
+210:Music/Deftones FLAC/Deftones - Back to School (Mini Maggit).flac
+211:Music/Deftones FLAC/Deftones - Digital Bath.flac
+212:Music/Deftones FLAC/Deftones - Rx Queen.flac
+213:Music/Deftones FLAC/Deftones - Knife Prty.flac
+214:Music/Deftones FLAC/Deftones - Passenger.flac
+215:Music/Deftones FLAC/Deftones - Change (In the House of Flies).flac
+216:Music/Deftones FLAC/Deftones - Pink Maggit.flac
+217:Music/Dishwalla FLAC/Dishwalla - Angels Or Devils.flac
+218:Music/Dishwalla FLAC/Dishwalla_Counting_Blue_Cars_Tell_Me_Your_Thoughts_On_God.flac
+219:Music/Dishwalla FLAC/Dishwalla - Charlie Brown s Parents.flac
+220:Music/Duran Duran FLAC/Duran Duran - INVISIBLE.flac
+221:Music/Eagles FLAC/Eagles - Hotel California (2013 Remaster).flac
+222:Music/Elliot Smith FLAC/Elliott Smith - Between The Bars (Remastered 2017).flac
+223:Music/Eraserheads FLAC/Eraserheads - Pare Ko.flac
+224:Music/Eraserheads FLAC/Eraserheads - Ang Huling El Bimbo.flac
+225:Music/Eraserheads FLAC/Eraserheads - Alapaap.flac
+226:Music/Eraserheads FLAC/Eraserheads - With A Smile.flac
+227:Music/Eraserheads FLAC/Eraserheads - Magasin.flac
+228:Music/Eraserheads FLAC/Eraserheads - Tindahan Ni Aling Nena.flac
+229:Music/Eraserheads FLAC/Eraserheads - Spoliarium.flac
+230:Music/Eraserheads FLAC/Evanescence - Bring Me To Life.flac
+231:Music/Eraserheads FLAC/Evanescence - My Immortal.flac
+232:Music/Eraserheads FLAC/Eraserheads - Huwag Kang Matakot.flac
+233:Music/Eraserheads FLAC/Eraserheads - Ligaya.flac
+234:Music/FM Static FLAC/FM Static - Tonight.flac
+235:Music/FM Static FLAC/FM Static - Moment Of Truth.flac
+236:Music/Foo Fighters FLAC/Foo Fighters - Best of You.flac
+237:Music/Foo Fighters FLAC/Foo Fighters - Everlong.flac
+238:Music/Foo Fighters FLAC/Foo Fighters - The Pretender.flac
+239:Music/Foo Fighters FLAC/Foo Fighters - My Hero.flac
+240:Music/Foo Fighters FLAC/Foo Fighters - Learn to Fly.flac
+241:Music/Foo Fighters FLAC/Foo Fighters - Monkey Wrench.flac
+242:Music/Frank Sinatra FLAC/Frank Sinatra - Fly Me To The Moon (2008 Remastered).flac
+243:Music/Frank Sinatra FLAC/Frank Sinatra - My Way (Remastered).flac
+244:Music/Gojira FLAC/Gojira - Ocean Planet.flac
+245:Music/Gojira FLAC/Gojira - From The Sky.flac
+246:Music/Gojira FLAC/Gojira - Where Dragons Dwell.flac
+247:Music/Gojira FLAC/Gojira - Flying Whales.flac
+248:Music/Gojira FLAC/Gojira - In The Wilderness.flac
+249:Music/Gojira FLAC/Gojira - Global Warming.flac
+250:Music/Gojira FLAC/Gojira - Silvera.flac
+251:Music/Gojira FLAC/Gojira - Stranded.flac
+252:Music/Gojira FLAC/Gojira - The art of dying.flac
+253:Music/Gotye FLAC/Gotye - Somebody That I Used To Know.flac
+254:Music/Green Day FLAC/Green Day - Brutal Love.flac
+255:Music/Green Day FLAC/Green Day - The Forgotten.flac
+256:Music/Green Day FLAC/Green Day - Oh Love.flac
+257:Music/Green Day FLAC/Green Day - 21st Century Breakdown.flac
+258:Music/Green Day FLAC/Green Day - Know Your Enemy.flac
+259:Music/Green Day FLAC/Green Day - ¡Viva La Gloria!.flac
+260:Music/Green Day FLAC/Green Day - Last Night on Earth.flac
+261:Music/Green Day FLAC/Green Day - East Jesus Nowhere.flac
+262:Music/Green Day FLAC/Green Day - Last of the American Girls.flac
+263:Music/Green Day FLAC/Green Day - ¿Viva La Gloria_ (Little Girl).flac
+264:Music/Green Day FLAC/Green Day - Restless Heart Syndrome.flac
+265:Music/Green Day FLAC/Green Day - 21 Guns.flac
+266:Music/Green Day FLAC/Green Day - American Idiot.flac
+267:Music/Green Day FLAC/Green Day - Wake Me up When September Ends.flac
+268:Music/Green Day FLAC/Green Day - Holiday (1).flac
+269:Music/Green Day FLAC/Green Day - Give Me Novacaine.flac
+270:Music/Green Day FLAC/Green Day - Letterbomb.flac
+271:Music/Green Day FLAC/Green Day - Jesus of Suburbia.flac
+272:Music/Green Day FLAC/Green Day - Homecoming.flac
+273:Music/Green Day FLAC/Green Day - Boulevard of Broken Dreams.flac
+274:Music/Green Day FLAC/Green Day - Longview.flac
+275:Music/Green Day FLAC/Green Day - Welcome to Paradise.flac
+276:Music/Green Day FLAC/Green Day - Basket Case.flac
+277:Music/Green Day FLAC/Green Day - She.flac
+278:Music/Green Day FLAC/Green Day - When I Come Around.flac
+279:Music/Green Day FLAC/Green Day - Geek Stink Breath.flac
+280:Music/Green Day FLAC/Green Day - Brain Stew.flac
+281:Music/Green Day FLAC/Green Day - Walking Contradiction.flac
+282:Music/Green Day FLAC/Green Day - Redundant.flac
+283:Music/Green Day FLAC/Green Day - Bang Bang.flac
+284:Music/Green Day FLAC/Green Day - Revolution Radio.flac
+285:Music/Green Day FLAC/Green Day - Say Goodbye.flac
+286:Music/Green Day FLAC/Green Day - Still Breathing.flac
+287:Music/Green Day FLAC/Green Day - Youngblood.flac
+288:Music/Green Day FLAC/Green Day - Too Dumb to Die.flac
+289:Music/Green Day FLAC/Green Day - Troubled Times.flac
+290:Music/Green Day FLAC/Green Day - Ordinary World.flac
+291:Music/Green Day FLAC/Green Day - Waiting.flac
+292:Music/Green Day FLAC/Green Day - Macy s Day Parade.flac
+293:Music/Greyhoundz FLAC/Greyhoundz - Pigface.flac
+294:Music/Greyhoundz FLAC/Greyhoundz - Doble Kara.flac
+295:Music/Greyhoundz FLAC/Greyhoundz - Your Puppet And Clown.flac
+296:Music/Hale FLAC/Hale - Blue Sky.flac
+297:Music/Hale FLAC/Hale - The Day You Said Goodnight.flac
+298:Music/Hale FLAC/Hale - Kung Wala Ka.flac
+299:Music/Hawthorne Heights FLAC/Hawthorne Heights - Niki Fm.flac
+300:Music/Hawthorne Heights FLAC/Hawthorne Heights - Ohio Is For Lovers.flac
+301:Music/Hinder FLAC/Hinder - Lips Of An Angel.flac
+302:Music/Hoobastank FLAC/Hoobastank - The Reason (Radio Edit).flac
+303:Music/Incubus FLAC/Incubus - Drive.flac
+304:Music/Itchyworms FLAC/Itchyworms - Di Na Muli.flac
+305:Music/Jim Croce FLAC/Jim Croce - Time in a Bottle.flac
+306:Music/Johnny Cash FLAC/Johnny Cash - Hurt.flac
+307:Music/Junko Ohashi FLAC/Junko Ohashi - Telephone Number.flac
+308:Music/Kamikazee FLAC/Kamikazee - Huling Sayaw.flac
+309:Music/Kamikazee FLAC/Kamikazee - Narda.flac
+310:Music/Kamikazee FLAC/Kamikazee - Halik.flac
+311:Music/Kurt Cobain FLAC/Kurt Cobain - And I Love Her.flac
+312:Music/Laufey FLAC/Laufey - Fragile.flac
+313:Music/Laufey FLAC/Laufey - Valentine.flac
+314:Music/Laufey FLAC/Laufey - Falling Behind.flac
+315:Music/Laufey FLAC/Laufey - From The Start.flac
+316:Music/Laufey FLAC/Laufey - Let You Break My Heart Again.flac
+317:Music/Laufey FLAC/Laufey - Promise.flac
+318:Music/Laufey FLAC/Laufey - I Wish You Love.flac
+319:Music/Limp Bizkit FLAC/Limp Bizkit - My Generation.flac
+320:Music/Limp Bizkit FLAC/Limp Bizkit - Rollin  (Air Raid Vehicle).flac
+321:Music/Limp Bizkit FLAC/Limp Bizkit - Livin' It Up.flac
+322:Music/Limp Bizkit FLAC/Limp Bizkit - Boiler.flac
+323:Music/Limp Bizkit FLAC/Limp Bizkit - Take A Look Around.flac
+324:Music/Limp Bizkit FLAC/Limp Bizkit - My Way.flac
+325:Music/Limp Bizkit FLAC/Limp Bizkit - Behind Blue Eyes.flac
+326:Music/Limp Bizkit FLAC/Limp Bizkit - Nookie.flac
+327:Music/Limp Bizkit FLAC/Limp Bizkit - Break Stuff.flac
+328:Music/Linkin Park FLAC/Linkin Park - Iridescent.flac
+329:Music/Linkin Park FLAC/Linkin Park - Papercut.flac
+330:Music/Linkin Park FLAC/Linkin Park - One Step Closer.flac
+331:Music/Linkin Park FLAC/Linkin Park - With You.flac
+332:Music/Linkin Park FLAC/Linkin Park - Points of Authority.flac
+333:Music/Linkin Park FLAC/Linkin Park - Crawling.flac
+334:Music/Linkin Park FLAC/Linkin Park - Runaway.flac
+335:Music/Linkin Park FLAC/Linkin Park - By Myself.flac
+336:Music/Linkin Park FLAC/Linkin Park - In the End.flac
+337:Music/Linkin Park FLAC/Linkin Park - A Place for My Head.flac
+338:Music/Linkin Park FLAC/Linkin Park - Forgotten.flac
+339:Music/Linkin Park FLAC/Linkin Park - Pushing Me Away.flac
+340:Music/Linkin Park FLAC/Linkin Park - LOST IN THE ECHO.flac
+341:Music/Linkin Park FLAC/Linkin Park - IN MY REMAINS.flac
+342:Music/Linkin Park FLAC/Linkin Park - BURN IT DOWN.flac
+343:Music/Linkin Park FLAC/Linkin Park - LIES GREED MISERY.flac
+344:Music/Linkin Park FLAC/Linkin Park - I LL BE GONE.flac
+345:Music/Linkin Park FLAC/Linkin Park - LIVING THINGS.flac
+346:Music/Linkin Park FLAC/Linkin Park - VICTIMIZED.flac
+347:Music/Linkin Park FLAC/Linkin Park - ROADS UNTRAVELED.flac
+348:Music/Linkin Park FLAC/Linkin Park - POWERLESS.flac
+349:Music/Linkin Park FLAC/Linkin Park - Don t Stay.flac
+350:Music/Linkin Park FLAC/Linkin Park - Somewhere I Belong.flac
+351:Music/Linkin Park FLAC/Linkin Park - Lying from You.flac
+352:Music/Linkin Park FLAC/Linkin Park - Hit the Floor.flac
+353:Music/Linkin Park FLAC/Linkin Park - Easier to Run.flac
+354:Music/Linkin Park FLAC/Linkin Park - Faint.flac
+355:Music/Linkin Park FLAC/Linkin Park - Figure.09.flac
+356:Music/Linkin Park FLAC/Linkin Park - Breaking the Habit.flac
+357:Music/Linkin Park FLAC/Linkin Park - From the Inside.flac
+358:Music/Linkin Park FLAC/Linkin Park - Nobody s Listening.flac
+359:Music/Linkin Park FLAC/Linkin Park - Numb.flac
+360:Music/Linkin Park FLAC/Linkin Park - Given Up.flac
+361:Music/Linkin Park FLAC/Linkin Park - Leave Out All The Rest.flac
+362:Music/Linkin Park FLAC/Linkin Park - Shadow of the Day.flac
+363:Music/Linkin Park FLAC/Linkin Park - What I've Done.flac
+364:Music/Linkin Park FLAC/Linkin Park - No More Sorrow.flac
+365:Music/Live FLAC/Live - Lightning Crashes.flac
+366:Music/Lyn FLAC/Lyn - No More What Ifs.flac
+367:Music/Lyn FLAC/LYn - Life Will Change.flac
+368:Music/Lyn FLAC/Lyn Inaizumi - Last Surprise.flac
+369:Music/Marilyn Manson FLAC/Marilyn Manson - Killing Strangers.flac
+370:Music/Matchbox Twenty FLAC/matchbox twenty - Push.flac
+371:Music/Meiko Nakahara FLAC/Meiko Nakahara - Fantasy.flac
+372:Music/Metallica FLAC/Metallica - One.flac
+373:Music/Metallica FLAC/Metallica - Here Comes Revenge.flac
+374:Music/Metallica FLAC/Metallica - Hardwired.flac
+375:Music/Metallica FLAC/Metallica - Dream No More.flac
+376:Music/Metallica FLAC/Metallica - Master Of Puppets.flac
+377:Music/Metallica FLAC/Metallica - Enter Sandman.flac
+378:Music/Metallica FLAC/Metallica - Sad But True.flac
+379:Music/Metallica FLAC/Metallica - Holier Than Thou.flac
+380:Music/Metallica FLAC/Metallica - The Unforgiven.flac
+381:Music/Metallica FLAC/Metallica - Wherever I May Roam.flac
+382:Music/Metallica FLAC/Metallica - Don't Tread On Me.flac
+383:Music/Metallica FLAC/Metallica - Through The Never.flac
+384:Music/Metallica FLAC/Metallica - Nothing Else Matters.flac
+385:Music/Metallica FLAC/Metallica - Of Wolf And Man.flac
+386:Music/Metallica FLAC/Metallica - The God That Failed.flac
+387:Music/Metallica FLAC/Metallica - My Friend Of Misery.flac
+388:Music/Metallica FLAC/Metallica - The Struggle Within.flac
+389:Music/Metallica FLAC/Metallica - The Memory Remains.flac
+390:Music/Metallica FLAC/Metallica - The Unforgiven II.flac
+391:Music/Metallica FLAC/Metallica - Ride The Lightning (Remastered).flac
+392:Music/Metallica FLAC/Metallica - For Whom The Bell Tolls (Remastered).flac
+393:Music/Metallica FLAC/Metallica - Fade To Black (Remastered).flac
+394:Music/Miki Matsubara FLAC/Stay With Me.flac
+395:Music/My Chemical Romance FLAC/My Chemical Romance - Welcome to the Black Parade.flac
+396:Music/My Chemical Romance FLAC/My Chemical Romance - I Don't Love You.flac
+397:Music/My Chemical Romance FLAC/My Chemical Romance - Cancer.flac
+398:Music/My Chemical Romance FLAC/My Chemical Romance - Teenagers.flac
+399:Music/My Chemical Romance FLAC/My Chemical Romance - Disenchanted.flac
+400:Music/My Chemical Romance FLAC/My Chemical Romance - Famous Last Words.flac
+401:Music/My Chemical Romance FLAC/My Chemical Romance - Helena.flac
+402:Music/My Chemical Romance FLAC/My Chemical Romance - I'm Not Okay (I Promise).flac
+403:Music/My Chemical Romance FLAC/My Chemical Romance - The Ghost of You.flac
+404:Music/Natalie Holt FLAC/Natalie Holt - Purpose Is Glorious.flac
+405:Music/Nirvana FLAC/Nirvana - Serve The Servants.flac
+406:Music/Nirvana FLAC/Nirvana - Heart-Shaped Box.flac
+407:Music/Nirvana FLAC/Nirvana - Frances Farmer Will Have Her Revenge On Seattle.flac
+408:Music/Nirvana FLAC/Nirvana - Dumb.flac
+409:Music/Nirvana FLAC/Nirvana - Pennyroyal Tea.flac
+410:Music/Nirvana FLAC/Nirvana - All Apologies.flac
+411:Music/Nirvana FLAC/Nirvana - Sliver.flac
+412:Music/Nirvana FLAC/Nirvana - Aneurysm.flac
+413:Music/Nirvana FLAC/Nirvana - The Man Who Sold The World (Live).flac
+414:Music/Nirvana FLAC/Nirvana - Where Did You Sleep Last Night (Live).flac
+415:Music/Nirvana FLAC/Nirvana - Smells Like Teen Spirit.flac
+416:Music/Nirvana FLAC/Nirvana - In Bloom.flac
+417:Music/Nirvana FLAC/Nirvana - Come As You Are.flac
+418:Music/Nirvana FLAC/Nirvana - Breed.flac
+419:Music/Nirvana FLAC/Nirvana - Lithium.flac
+420:Music/Nirvana FLAC/Nirvana - Polly.flac
+421:Music/Nirvana FLAC/Nirvana - Territorial Pissings.flac
+422:Music/Nirvana FLAC/Nirvana - Drain You.flac
+423:Music/Nirvana FLAC/Nirvana - Lounge Act.flac
+424:Music/Nirvana FLAC/Nirvana - Stay Away.flac
+425:Music/Nirvana FLAC/Nirvana - On A Plain.flac
+426:Music/Nirvana FLAC/Nirvana - Something In The Way.flac
+427:Music/Nirvana FLAC/Nirvana - About A Girl.flac
+428:Music/No Doubt FLAC/No Doubt - Just A Girl.flac
+429:Music/No Doubt FLAC/No Doubt - Underneath It All.flac
+430:Music/No Doubt FLAC/No Doubt - Don't Speak.flac
+431:Music/Oasis FLAC/Oasis - Wonderwall.flac
+432:Music/Oasis FLAC/Oasis - Don't Look Back In Anger.flac
+433:Music/Oasis FLAC/Oasis - Champagne Supernova.flac
+434:Music/Oasis FLAC/Oasis - Stand By Me.flac
+435:Music/Oasis FLAC/Oasis - Don't Go Away.flac
+436:Music/Oasis FLAC/Oasis - All Around The World.flac
+437:Music/Oasis FLAC/Oasis - Stop Crying Your Heart Out.flac
+438:Music/Of Mice & Men FLAC/Of Mice & Men - Would You Still Be There.flac
+439:Music/Of Mice & Men FLAC/Of Mice & Men - Feels Like Forever.flac
+440:Music/Of Mice & Men FLAC/Of Mice & Men - Bones Exposed.flac
+441:Music/Orange & Lemons FLAC/Orange   Lemons - Yakap sa Dilim.flac
+442:Music/Orange & Lemons FLAC/Orange   Lemons - Hanggang Kailan - Umuwi Ka Na Baby.flac
+443:Music/Ozzy Osbourne FLAC/Ozzy Osbourne - Crazy Train.flac
+444:Music/Ozzy Osbourne FLAC/Ozzy Osbourne - No More Tears.flac
+445:Music/Panic! At the Disco FLAC/Panic! At the Disco - I Write Sins Not Tragedies.flac
+446:Music/Pantera FLAC/Pantera - Cemetery Gates.flac
+447:Music/Pantera FLAC/Pantera - Walk.flac
+448:Music/Pantera FLAC/Pantera - This Love.flac
+449:Music/Papa Roach FLAC/Papa Roach - Help.flac
+450:Music/Papa Roach FLAC/Papa Roach - Gravity (Remastered 2020).flac
+451:Music/Papa Roach FLAC/Papa Roach - Between Angels And Insects.flac
+452:Music/Papa Roach FLAC/Papa Roach - Last Resort.flac
+453:Music/Papa Roach FLAC/Papa Roach - Scars.flac
+454:Music/Paramore FLAC/Paramore - Rose-Colored Boy.flac
+455:Music/Paramore FLAC/Paramore - Told You So.flac
+456:Music/Paramore FLAC/Paramore - Fake Happy.flac
+457:Music/Paramore FLAC/Paramore - Caught in the Middle.flac
+458:Music/Paramore FLAC/Paramore - Pressure.flac
+459:Music/Paramore FLAC/Paramore - Emergency.flac
+460:Music/Paramore FLAC/Brand New Eyes CD 1 TRACK 1 (FLAC).flac
+461:Music/Paramore FLAC/Brand New Eyes CD 1 TRACK 3 (FLAC).flac
+462:Music/Paramore FLAC/Brand New Eyes CD 1 TRACK 4 (FLAC).flac
+463:Music/Paramore FLAC/Brand New Eyes CD 1 TRACK 5 (FLAC).flac
+464:Music/Paramore FLAC/Paramore - The Only Exception.flac
+465:Music/Paramore FLAC/Paramore - All I Wanted.flac
+466:Music/Paramore FLAC/Paramore - Burning Down the House.flac
+467:Music/Paramore FLAC/Paramore - Decode (Twilight Soundtrack Version).flac
+468:Music/Paramore FLAC/Paramore - Hard Times.flac
+469:Music/Paramore FLAC/Paramore - Monster (Transformers Soundtrack Version).flac
+470:Music/Paramore FLAC/Paramore - Ain t It Fun.flac
+471:Music/Paramore FLAC/Paramore - Still into You.flac
+472:Music/Paramore FLAC/Paramore - C’est Comme Ça (Re_ Wet Leg).flac
+473:Music/Paramore FLAC/Riot! CD 1 TRACK 1 (FLAC).flac
+474:Music/Paramore FLAC/Paramore - That's What You Get.flac
+475:Music/Paramore FLAC/Riot! CD 1 TRACK 3 (FLAC).flac
+476:Music/Paramore FLAC/Paramore - Misery Business.flac
+477:Music/Paramore FLAC/Riot! CD 1 TRACK 8 (FLAC).flac
+478:Music/Paramore FLAC/Paramore - This Is Why.flac
+479:Music/Paramore FLAC/Paramore - Running Out Of Time.flac
+480:Music/Pearl Jam FLAC/Pearl Jam - Yellow Ledbetter.flac
+481:Music/Pearl Jam FLAC/Pearl Jam - Even Flow.flac
+482:Music/Pearl Jam FLAC/Pearl Jam - Alive.flac
+483:Music/Pearl Jam FLAC/Pearl Jam - Black.flac
+484:Music/Pearl Jam FLAC/Pearl Jam - Jeremy.flac
+485:Music/Periphery FLAC/Periphery - Reptile.flac
+486:Music/Phum Viphurit FLAC/Phum Viphurit - Softly Spoken.flac
+487:Music/Phum Viphurit FLAC/Phum Viphurit - Hello, Anxiety.flac
+488:Music/Phum Viphurit FLAC/Phum Viphurit - Lover Boy.flac
+489:Music/Pink Floyd FLAC/Pink Floyd - Comfortably Numb (2001 Remastered Version).flac
+490:Music/Pink Floyd FLAC/Pink Floyd - Echoes (2011 Remastered Version).flac
+491:Music/Pink Floyd FLAC/Pink Floyd - Speak To Me (2023 Remaster).flac
+492:Music/Pink Floyd FLAC/Pink Floyd - Breathe (In The Air) (2023 Remaster).flac
+493:Music/Pink Floyd FLAC/Pink Floyd - On The Run (2023 Remaster).flac
+494:Music/Pink Floyd FLAC/Pink Floyd - Time (2023 Remaster).flac
+495:Music/Pink Floyd FLAC/Pink Floyd - The Great Gig In The Sky (2023 Remaster).flac
+496:Music/Pink Floyd FLAC/Pink Floyd - Money (2023 Remaster).flac
+497:Music/Pink Floyd FLAC/Pink Floyd - Us And Them (2023 Remaster).flac
+498:Music/Pink Floyd FLAC/Pink Floyd - Any Colour You Like (2023 Remaster).flac
+499:Music/Pink Floyd FLAC/Pink Floyd - Brain Damage (2023 Remaster).flac
+500:Music/Pink Floyd FLAC/Pink Floyd - Eclipse (2023 Remaster).flac
+501:Music/Pink Floyd FLAC/Pink Floyd - Another Brick in the Wall, Pt. 1.flac
+502:Music/Pink Floyd FLAC/Pink Floyd - Another Brick in the Wall, Pt. 2.flac
+503:Music/Pink Floyd FLAC/Pink Floyd - Shine On You Crazy Diamond, Pts. 1-5 (2011 Remaster).flac
+504:Music/Pink Floyd FLAC/Pink Floyd - Wish You Were Here (2011 Remaster).flac
+505:Music/Pixies FLAC/Pixies - Where Is My Mind.flac
+506:Music/Poppy FLAC/Poppy - X.flac
+507:Music/Poppy FLAC/Poppy - Concrete.flac
+508:Music/Queen FLAC/Queen - Bohemian Rhapsody (Remastered 2011).flac
+509:Music/Queen FLAC/Queen - Somebody To Love.flac
+510:Music/Queen FLAC/Queen - Killer Queen.flac
+511:Music/Queen FLAC/Queen - Crazy Little Thing Called Love.flac
+512:Music/Queen FLAC/Greatest Hits (Remastered) CD 1 TRACK 5 (FLAC).flac
+513:Music/Queen FLAC/Queen - We Are The Champions (Remastered 2011).flac
+514:Music/Queen FLAC/Queen - Radio Ga Ga.flac
+515:Music/Queen FLAC/Queen - I Want To Break Free (Remastered 2011).flac
+516:Music/Queen FLAC/Queen - Don t Stop Me Now (Remastered 2011).flac
+517:Music/Queen FLAC/Queen - Love Of My Life (Remastered 2011).flac
+518:Music/Queen FLAC/Queen - Another One Bites The Dust (Remastered 2011).flac
+519:Music/Queen FLAC/Queen - Good Old-Fashioned Lover Boy (Remastered 2011).flac
+520:Music/R.E.M FLAC/R.E.M. - Losing My Religion.flac
+521:Music/Radiohead FLAC/Radiohead - Exit Music (For A Film).flac
+522:Music/Radiohead FLAC/Radiohead - Let Down.flac
+523:Music/Radiohead FLAC/Radiohead - Karma Police.flac
+524:Music/Radiohead FLAC/Radiohead - No Surprises.flac
+525:Music/Radiohead FLAC/Radiohead - Creep.flac
+526:Music/Rage Against the Machines FLAC/Rage Against the Machine - Bulls On Parade.flac
+527:Music/Rage Against the Machines FLAC/Rage Against the Machine - Killing In The Name.flac
+528:Music/Red Hot Chili Peppers FLAC/Red Hot Chili Peppers - Can t Stop.flac
+529:Music/Red Hot Chili Peppers FLAC/Red Hot Chili Peppers - Around the World.flac
+530:Music/Red Hot Chili Peppers FLAC/Red Hot Chili Peppers - Easily.flac
+531:Music/Red Hot Chili Peppers FLAC/Red Hot Chili Peppers - Scar Tissue.flac
+532:Music/Red Hot Chili Peppers FLAC/Red Hot Chili Peppers - Californication.flac
+533:Music/Red Hot Chili Peppers FLAC/Red Hot Chili Peppers - My Friends.flac
+534:Music/Red Hot Chili Peppers FLAC/Red Hot Chili Peppers - Snow (Hey Oh).flac
+535:Music/Rico Blanco FLAC/Rico Blanco - Wag Mong Aminin.flac
+536:Music/Rico Blanco FLAC/Rico Blanco - You'll Be Safe Here.flac
+537:Music/Rico Blanco FLAC/Rico Blanco - Antukin.flac
+538:Music/Rivermaya FLAC/Rivermaya - Hinahanap-Hanap Kita.flac
+539:Music/Rivermaya FLAC/Rivermaya - 214.flac
+540:Music/Rivermaya FLAC/Rivermaya - Elesi.flac
+541:Music/Rivermaya FLAC/Rivermaya - Kisapmata.flac
+542:Music/Roar FLAC/Roar - I Can t Handle Change.flac
+543:Music/Rousseau FLAC/Rousseau - Arabesque No. 1.flac
+544:Music/Rousseau FLAC/Rousseau - Ballade No. 1 in G Minor, Op. 23.flac
+545:Music/Rousseau FLAC/Rousseau - Clair De Lune.flac
+546:Music/Rousseau FLAC/Rousseau - Etude, Op. 10 - No. 4.flac
+547:Music/Rousseau FLAC/Rousseau - Etude, Op. 25 - No. 11 (Winter Wind).flac
+548:Music/Rousseau FLAC/Rousseau - Fantaisie Impromptu, Op. 66.flac
+549:Music/Rousseau FLAC/Rousseau - Für Elise.flac
+550:Music/Rousseau FLAC/Rousseau - Gymnopedie No. 1.flac
+551:Music/Rousseau FLAC/Rousseau - Hungarian Rhapsody No. 2.flac
+552:Music/Rousseau FLAC/Rousseau - La Campanella.flac
+553:Music/Rousseau FLAC/Rousseau - Liebesleid.flac
+554:Music/Rousseau FLAC/Rousseau - Liebestraum No. 3.flac
+555:Music/Rousseau FLAC/Rousseau - Little Red Riding Hood, Op. 39 - No. 6.flac
+556:Music/Rousseau FLAC/Rousseau - Marche Funèbre.flac
+557:Music/Rousseau FLAC/Rousseau - Moonlight Sonata, Mvt. 1.flac
+558:Music/Rousseau FLAC/Rousseau - Moonlight Sonata, Mvt. 3.flac
+559:Music/Rousseau FLAC/Rousseau - Nocturne in C# Minor - No. 20.flac
+560:Music/Rousseau FLAC/Rousseau - Nocturne in E Flat Major, Op. 9 - No.2.flac
+561:Music/Rousseau FLAC/Rousseau - Piano Sonata No.16 in C Major, K. 545 1st Mvt.flac
+562:Music/Rousseau FLAC/Rousseau - Prelude in C.flac
+563:Music/Rousseau FLAC/Rousseau - Prelude in G Minor, Op. 23 - No. 5.flac
+564:Music/Rousseau FLAC/Rousseau - Reverie.flac
+565:Music/Rousseau FLAC/Rousseau - Rondo Alla Turca.flac
+566:Music/Rousseau FLAC/Tchaikovsky - Dance of the Sugar Plum Fairy (The Nutcracker Suite) [sdduPpnqre4].flac
+567:Music/Rousseau FLAC/Tchaikovsky - Waltz of the Flowers (The Nutcracker Suite) [1aR92yQUS7s].flac
+568:Music/Rousseau FLAC/Rousseau - Waltz in C Sharp Minor (Op. 64 No. 2).flac
+569:Music/Santana FLAC/Santana - Smooth (feat. Rob Thomas).flac
+570:Music/Scorpions FLAC/Scorpions - Rock You Like a Hurricane (2011).flac
+571:Music/Scorpions FLAC/Scorpions - Wind of Change (1).flac
+572:Music/Scorpions FLAC/Scorpions - Wind Of Change.flac
+573:Music/Scorpions FLAC/Scorpions - Send Me An Angel.flac
+574:Music/Scorpions FLAC/Scorpions - Under The Same Sun.flac
+575:Music/Scorpions FLAC/Scorpions - Still Loving You (2015 - Remaster).flac
+576:Music/Secondhand Serenade FLAC/Secondhand Serenade - Fall For You.flac
+577:Music/Secondhand Serenade FLAC/Secondhand Serenade - Vulnerable.flac
+578:Music/Secondhand Serenade FLAC/Secondhand Serenade - Your Call.flac
+579:Music/Secondhand Serenade FLAC/Secondhand Serenade - Awake.flac
+580:Music/Siakol FLAC/Siakol - Bunga.flac
+581:Music/Siakol FLAC/Siakol - Akala Ko y Langit.flac
+582:Music/Siakol FLAC/Siakol - Sa Pag-ikot Ng Mundo.flac
+583:Music/Siakol FLAC/Siakol - Lagim.flac
+584:Music/Siakol FLAC/Siakol - Alaws Arep.flac
+585:Music/Siakol FLAC/Siakol - Kanto.flac
+586:Music/Siakol FLAC/Siakol - Aso.flac
+587:Music/Siakol FLAC/Siakol - Lakas Tama.flac
+588:Music/Siakol FLAC/Siakol - Gabay.flac
+589:Music/Siakol FLAC/Siakol - Yakap.flac
+590:Music/Siakol FLAC/Siakol - Bakit Ba.flac
+591:Music/Siakol FLAC/Siakol - Peksman.flac
+592:Music/Siakol FLAC/Siakol - Hindi Mo Ba Alam.flac
+593:Music/Siakol FLAC/Siakol - Biyaheng Impyerno.flac
+594:Music/Siakol FLAC/Siakol - Kabilang Mundo.flac
+595:Music/Siakol FLAC/Siakol - Habang Ang Lahat.flac
+596:Music/Siakol FLAC/Siakol - Ayos Lang.flac
+597:Music/Siakol FLAC/Siakol - Salot.flac
+598:Music/Siakol FLAC/Siakol - Tropa.flac
+599:Music/Siakol FLAC/Siakol - Ituloy Mo Lang.flac
+600:Music/Siakol FLAC/Siakol - P.I..flac
+601:Music/Siakol FLAC/Siakol - Asahan Mo.flac
+602:Music/Siakol FLAC/Siakol - Gawign Langit Ang Mundo.flac
+603:Music/Siakol FLAC/Siakol - Sasagipin Kita.flac
+604:Music/Silverchair FLAC/Silverchair - Cemetery.flac
+605:Music/Silverchair FLAC/Silverchair - Israel's Son.flac
+606:Music/Silverchair FLAC/Silverchair - Tomorrow.flac
+607:Music/Silverchair FLAC/Silverchair - Faultline.flac
+608:Music/Silverchair FLAC/Silverchair - Pure Massacre.flac
+609:Music/Silverchair FLAC/Silverchair - Shade.flac
+610:Music/Silverchair FLAC/Silverchair - Leave Me Out.flac
+611:Music/Silverchair FLAC/Silverchair - Suicidal Dream.flac
+612:Music/Silverchair FLAC/Silverchair - Undecided.flac
+613:Music/Silverchair FLAC/Silverchair - Cicada.flac
+614:Music/Silverchair FLAC/Silverchair - Findaway.flac
+615:Music/Silverchair FLAC/Silverchair - Ana's Song (Open Fire).flac
+616:Music/Silverchair FLAC/Silverchair - Miss You Love.flac
+617:Music/Simple Plan FLAC/Simple Plan - Jet Lag (feat. Natasha Bedingfield).flac
+618:Music/Simple Plan FLAC/Simple Plan - I m Just a Kid.flac
+619:Music/Simple Plan FLAC/Simple Plan - Addicted.flac
+620:Music/Simple Plan FLAC/No_Pads,_No_Helmets_Just_Balls_15th_Anniversary_Tour_Edit.flac
+621:Music/Simple Plan FLAC/Simple Plan - When I'm Gone.flac
+622:Music/Simple Plan FLAC/Simple Plan - Welcome to My Life.flac
+623:Music/Simple Plan FLAC/Simple Plan - Untitled (How Could This Happen to Me_).flac
+624:Music/Simple Plan FLAC/Summer Paradise CD 1 TRACK 1 (FLAC).flac
+625:Music/Simple Plan FLAC/Simple Plan - What's New Scooby-Doo_.flac
+626:Music/Skeeter Davis FLAC/Skeeter Davis - The End of the World.flac
+627:Music/Slipknot FLAC/Slipknot - The Devil in I.flac
+628:Music/Slipknot FLAC/Slipknot - Custer.flac
+629:Music/Slipknot FLAC/Slipknot - Psychosocial.flac
+630:Music/Slipknot FLAC/Slipknot - Snuff.flac
+631:Music/Slipknot FLAC/Slipknot - Duality.flac
+632:Music/Slipknot FLAC/Slipknot - Vermilion, Pt. 2.flac
+633:Music/Soundgarden FLAC/Soundgarden - Black Hole Sun.flac
+634:Music/Spectrum FLAC/Spectrum - F L Y.flac
+635:Music/Sum 41 FLAC/Sum 41 - In Too Deep.flac
+636:Music/Sum 41 FLAC/Sum 41 - With Me.flac
+637:Music/System Of A Down FLAC/System of A Down - Hypnotize.flac
+638:Music/System Of A Down FLAC/System of a Down - Lonely Day.flac
+639:Music/System Of A Down FLAC/System of A Down - B.Y.O.B.flac
+640:Music/System Of A Down FLAC/System of A Down - I-E-A-I-A-I-O.flac
+641:Music/System Of A Down FLAC/System of A Down - Spiders.flac
+642:Music/System Of A Down FLAC/System of A Down - Chop Suey!.flac
+643:Music/System Of A Down FLAC/System of A Down - Toxicity.flac
+644:Music/System Of A Down FLAC/System of A Down - Aerials.flac
+645:Music/Tame Impala FLAC/Tame Impala - The Less I Know The Better.flac
+646:Music/Temple Of The Dog FLAC/Temple Of The Dog - Hunger Strike.flac
+647:Music/The All-American Rejects FLAC/The All-American Rejects - Dirty Little Secret.flac
+648:Music/The All-American Rejects FLAC/The All-American Rejects - Move Along.flac
+649:Music/The All-American Rejects FLAC/The All-American Rejects - It Ends Tonight.flac
+650:Music/The All-American Rejects FLAC/The All-American Rejects - Swing, Swing.flac
+651:Music/The All-American Rejects FLAC/The All-American Rejects - Gives You Hell.flac
+652:Music/The Calling FLAC/The Calling - Wherever You Will Go.flac
+653:Music/The Cranberries FLAC/The Cranberries - Linger.flac
+654:Music/The Cranberries FLAC/The Cranberries - Ode To My Family.flac
+655:Music/The Cranberries FLAC/The Cranberries - Zombie.flac
+656:Music/The Goo Goo Dolls FLAC/The Goo Goo Dolls - Iris.flac
+657:Music/The Offspring FLAC/The Offspring - Pretty Fly (For A White Guy).flac
+658:Music/The Offspring FLAC/The Offspring - She's Got Issues.flac
+659:Music/The Offspring FLAC/The Offspring - Why Don't You Get A Job.flac
+660:Music/The Offspring FLAC/The Offspring - Bad Habit (2008 Remaster).flac
+661:Music/The Offspring FLAC/The Offspring - Gotta Get Away (2008 Remaster).flac
+662:Music/The Offspring FLAC/The Offspring - Genocide (2008 Remaster).flac
+663:Music/The Offspring FLAC/The Offspring - Come Out and Play (2008 Remaster).flac
+664:Music/The Offspring FLAC/The Offspring - Self Esteem (2008 Remaster).flac
+665:Music/The Police FLAC/The Police - Every Breath You Take.flac
+666:Music/The Red Jumpsuit Apparatus FLAC/The Red Jumpsuit Apparatus - Reap.flac
+667:Music/The Red Jumpsuit Apparatus FLAC/The Red Jumpsuit Apparatus - Am I The Enemy.flac
+668:Music/The Red Jumpsuit Apparatus FLAC/The Red Jumpsuit Apparatus - Where Are The Heroes.flac
+669:Music/The Red Jumpsuit Apparatus FLAC/The Red Jumpsuit Apparatus - Angel In Disguise.flac
+670:Music/The Red Jumpsuit Apparatus FLAC/The Red Jumpsuit Apparatus - Angels Cry.flac
+671:Music/The Red Jumpsuit Apparatus FLAC/The Red Jumpsuit Apparatus - Love Seat.flac
+672:Music/The Red Jumpsuit Apparatus FLAC/The Red Jumpsuit Apparatus - In Fate's Hands.flac
+673:Music/The Red Jumpsuit Apparatus FLAC/The Red Jumpsuit Apparatus - False Pretense.flac
+674:Music/The Red Jumpsuit Apparatus FLAC/The Red Jumpsuit Apparatus - Face Down.flac
+675:Music/The Red Jumpsuit Apparatus FLAC/The Red Jumpsuit Apparatus - Cat And Mouse.flac
+676:Music/The Red Jumpsuit Apparatus FLAC/The Red Jumpsuit Apparatus - Damn Regret.flac
+677:Music/The Red Jumpsuit Apparatus FLAC/The Red Jumpsuit Apparatus - Seventeen Ain't So Sweet.flac
+678:Music/The Red Jumpsuit Apparatus FLAC/The Red Jumpsuit Apparatus - Your Guardian Angel.flac
+679:Music/The Red Jumpsuit Apparatus FLAC/The Red Jumpsuit Apparatus - The Grimm Goodbye (Alliance Edition).flac
+680:Music/The Script FLAC/The Script - Hall of Fame (feat. will.i.am).flac
+681:Music/The Script FLAC/The Script - Superheroes.flac
+682:Music/The Script FLAC/The Script - For the First Time.flac
+683:Music/The Script FLAC/The Script - The Man Who Can't Be Moved.flac
+684:Music/The Script FLAC/The Script - Breakeven.flac
+685:Music/The Smashing Pumpkins FLAC/The Smashing Pumpkins - 1979.flac
+686:Music/The Smashing Pumpkins FLAC/The_Smashing_Pumpkins_Bullet_With_Butterfly_Wings_Remastered.flac
+687:Music/The Smashing Pumpkins FLAC/The Smashing Pumpkins - Today (2011 Remaster).flac
+688:Music/The Smashing Pumpkins FLAC/The Smashing Pumpkins - Mayonaise (2011 Remaster).flac
+689:Music/Third Eye Blind FLAC/Third Eye Blind - Semi-Charmed Life (2006 Remaster).flac
+690:Music/Thirty Seconds To Mars FLAC/Thirty Seconds to Mars - A Beautiful Lie.flac
+691:Music/Thirty Seconds To Mars FLAC/Thirty Seconds to Mars - The Kill.flac
+692:Music/Three Days Grace FLAC/Three Days Grace - Fallen Angel.flac
+693:Music/Three Days Grace FLAC/Three Days Grace - Pain.flac
+694:Music/Three Days Grace FLAC/Three Days Grace - Animal I Have Become.flac
+695:Music/Three Days Grace FLAC/Three Days Grace - Never Too Late.flac
+696:Music/Three Days Grace FLAC/Three Days Grace - Gone Forever.flac
+697:Music/Vertical Horizon FLAC/Vertical Horizon - Best I Ever Had (Grey Sky Morning).flac
+698:Music/Weezer FLAC/Weezer - Undone - The Sweater Song.flac
+699:Music/Weezer FLAC/Weezer - Say It Ain t So.flac
+700:Music/Wheatus FLAC/Wheatus - Teenage Dirtbag.flac
+701:Music/Wolfgang FLAC/Wolfgang - Anino (Album Version).flac
+702:Music/Wolfgang FLAC/Wolfgang - Arise.flac
+703:Music/Wolfgang FLAC/Wolfgang - Halik Ni Hudas.flac
+704:Music/Wolfgang FLAC/Wolfgang - Natutulog Kong Mundo.flac
+705:Music/Wolfgang FLAC/Wolfgang - Darkness Fell.flac
+706:Music/Yasuha FLAC/Yasuha - Flyday Chinatown.flac
+707:Music/Yes FLAC/Yes - Roundabout.flac
+708:Music/Yiruma FLAC/Yiruma - River Flows In You.flac
+playlist_end

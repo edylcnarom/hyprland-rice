@@ -1,0 +1,29 @@
+2026-05-18T18:01:43 exception: Failed to open "/home/moran/.local/share/mpd/state": No such file or directory
+2026-05-18T18:01:43 exception: Error on line 13; Failed to parse number
+2026-05-18T18:20:44 exception: Failed to open "/home/moran/.local/share/mpd/state": No such file or directory
+2026-05-18T18:20:44 exception: Error on line 13; Failed to parse number
+2026-05-18T18:31:35 exception: Error on line 15; Failed to parse number
+2026-05-18T19:24:55 exception: Error on line 15; Failed to parse number
+2026-05-18T19:29:37 exception: Bad relative path
+2026-05-18T19:44:22 exception: Bad relative path
+2026-05-18T19:45:41 exception: Bad relative path
+2026-05-18T19:46:08 exception: Error on line 15; Failed to parse number
+2026-05-18T19:46:17 exception: Bad relative path
+2026-05-18T19:46:22 exception: Bad relative path
+2026-05-18T19:46:33 player: played "Music/Anri FLAC/Anri - WINDY SUMMER.flac"
+2026-05-18T19:47:43 player: played "Music/Anri FLAC/Anri - SHYNESS BOY.flac"
+2026-05-18T19:47:50 player: played "Music/Anri FLAC/Anri - SHYNESS BOY.flac"
+2026-05-18T19:48:43 player: played "Music/Anri FLAC/Anri - Remember Summer Days.flac"
+2026-05-18T19:49:09 exception: Bad relative path
+2026-05-18T19:53:50 player: played "Music/Anri FLAC/Anri - Remember Summer Days.flac"
+2026-05-18T19:58:46 player: played "Music/Anri FLAC/Anri - Remember Summer Days.flac"
+2026-05-18T20:06:12 player: played "Music/Anri FLAC/Anri - WINDY SUMMER.flac"
+2026-05-18T20:06:12 exception: Error on line 15; Failed to parse number
+2026-05-18T20:08:20 player: played "Music/Anri FLAC/Anri - WINDY SUMMER.flac"
+2026-05-18T20:08:20 exception: Error on line 15; Failed to parse number
+2026-05-18T20:08:32 exception: Bad relative path
+2026-05-18T20:15:26 exception: Bad relative path
+2026-05-18T20:17:55 exception: Bad relative path
+2026-05-18T20:18:25 exception: Bad relative path
+2026-05-18T20:32:25 player: played "Music/Anri FLAC/Anri - WINDY SUMMER.flac"
+2026-05-18T20:32:26 exception: Error on line 15; Failed to parse number

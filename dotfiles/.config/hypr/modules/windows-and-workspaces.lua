@@ -69,5 +69,30 @@ hl.layer_rule({
 
 hl.window_rule({
     match = { class = "com-azefsw-audioconnect-desktop-app-MainKt" },
-    workspace = "special:magic silent"
+    workspace = "special:magic silent",
+    opacity = "0.9",
+})
+
+hl.window_rule({
+    name  = "thunar",
+    match = { class = "thunar" },
+    opacity = "0.85 0.75",
+})
+
+hl.window_rule({
+    name  = "dolphin",
+    match = { class = "org.kde.dolphin" },
+    opacity = "0.85 0.75",
+})
+
+hl.window_rule({
+    name  = "bottles",
+    match = { class = "com.usebottles.bottles" },
+    opacity = "0.85 0.75",
+})
+
+hl.window_rule({
+    name  = "code-oss",
+    match = { class = "code-oss" },
+    opacity = "0.9",
 })
